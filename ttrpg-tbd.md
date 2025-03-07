@@ -50,48 +50,56 @@ Unarmed (MIG,END)
    * Flexibility: Low
    * Control: Moderate
    * Signatures: Movement Restriction, Resisting Damage and Physical Statuses
+   
 Bladecraft (MIG,REF)
    * Damage: High
    * Defense: Moderate
    * Flexibility: Moderate
    * Control: Low
    * Signatures: Counterattacks, Inflicting Offensive Statuses
+   
 Archery (FIN,END)
    * Damage: Moderate
    * Defense: Moderate
    * Flexibility: High
    * Control: Low
    * Signatures: Range
+   
 Ninjutsu (FIN,REF)
    * Damage: Low to High
    * Defense: Low to High
    * Flexibility: Moderate
    * Control: Moderate
    * Signatures: Deception, Mobility
+   
 Kineticism (REA,REF)
    * Damage: Low
    * Defense: Low
    * Flexibility: High
    * Control: High
    * Signatures: Terrain Effects
+   
 Mesmerism (FIN,FOC)
    * Damage: Low to Moderate
    * Defense: Moderate
    * Flexibility: Moderate
    * Control: Moderate to High
    * Signatures: Debuffs, Redirection
+   
 Elementalism (REA,FOC)
    * Damage: High
    * Defense: Low
    * Flexibility: Moderate
    * Control: Moderate
    * Signatures: Area of Effect Damage, Damage over Time
+   
 Animism (MIG,FOC)
    * Damage: Low
    * Defense: High
    * Flexibility: Moderate
    * Control: Moderate
    * Signature: Buffing, Healing, Summoning
+   
 Infusion (REA,END)
    * Damage: Moderate
    * Defense: Moderate
@@ -99,13 +107,14 @@ Infusion (REA,END)
    * Control: Low
    * Signature: Balanced, Flexible Fighting Style
 
-
 ## Defenses
 
 Resilience (END)
     * Mitigating damage from physical attacks, shrugging off toxins
+    
 Evasion (REF)
     * Avoiding damaging effects by moving out of the way
+    
 Resolve (FOC)
     * Resisting mental drain or coercion
 
@@ -113,20 +122,28 @@ Resolve (FOC)
 
 Construction (MIG, END)
     * Creation and repair of static structures such as fortifications
+    
 Athletics (MIG, REF)
     * Feats of physical prowess such as breaking down barriers or leaping long distances
+    
 Craft (FIN, END)
     * Creation and repair of portable items requiring fine motor control
+    
 Stealth (FIN, REF)
     * Moving without being detected, blending in to a crowd
+    
 Problem-Solving (REA, REF)
     * Piecing together evidence, solving puzzles
+    
 Influence (FIN, FOC)
     * Persuading or deceiving individuals by argument and/or performance
+    
 Research (REA, FOC)
     * Obtaining relevant information and discovering new knowledge 
+    
 Leadership (MIG, FOC)
     * Rallying groups to a cause or intimidating them into submission
+    
 Reconaissance (REA, END)
     * Gathering information through observation
 
@@ -267,57 +284,57 @@ All characters have access to the following abilities in addition to the ones th
 
 #### Basic Attack
 
-**Type:** Action (Physical Attack)
-**Range:** 3
-**Target:** One enemy
-**Success:** Deal **Fatigue**
+**Type:** Action (Physical Attack)  
+**Range:** 3  
+**Target:** One enemy  
+**Success:** Deal **Fatigue**  
 
 #### Dash
 
-**Type:** Action
-**Effect:** Move a number of spaces up to your speed
+**Type:** Action  
+**Effect:** Move a number of spaces up to your speed  
 
 #### Recover
 
-**Type:** Action
-**Target:** Self
-**Effect:** Reduce current **Fatigue** or **Stress** by 1
+**Type:** Action  
+**Target:** Self  
+**Effect:** Reduce current **Fatigue** or **Stress** by 1  
 
 #### Resuscitate
 
-**Type:** Action
-**Range:** 1
-**Target:** One ally who is **Incapacitated**
+**Type:** Action  
+**Range:** 1  
+**Target:** One ally who is **Incapacitated**  
 **Effect:** The target is no longer **Incapacitated** and their **Fatigue** and **Stress** are halved (round down)
 
 #### Brace
 
-**Type:** Stance
-**Effect:** Gain +1 on Resilience rolls
+**Type:** Stance  
+**Effect:** Gain +1 on Resilience rolls  
 
 #### Dodge
 
-**Type:** Stance
-**Effect:** Gain +1 on Evasion rolls
+**Type:** Stance  
+**Effect:** Gain +1 on Evasion rolls  
 
 #### Concentrate
 
-**Type:** Stance
-**Effect:** Gain +1 on Resolve rolls
+**Type:** Stance  
+**Effect:** Gain +1 on Resolve rolls  
 
 #### Assist
 
-**Type:** Stance
-**Range:** 1
-**Trigger:** An ally targets an enemy within range
-**Effect:** The ally gains +1 Boon on their offensive roll
+**Type:** Stance  
+**Range:** 1  
+**Trigger:** An ally targets an enemy within range  
+**Effect:** The ally gains +1 Boon on their offensive roll  
 
 #### Protect
 
-**Type:** Stance
-**Range:** 1
-**Trigger:** An ally within range is targeted by an enemy
-**Effect:** The ally gains +1 Boon on their defensive roll
+**Type:** Stance  
+**Range:** 1  
+**Trigger:** An ally within range is targeted by an enemy  
+**Effect:** The ally gains +1 Boon on their defensive roll  
 
 
 ## Statuses, Buffs and Other Conditions
@@ -351,296 +368,296 @@ All characters have access to the following abilities in addition to the ones th
 
 #### Chokehold
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** One character
-**Succeed:** Target is **Immobilized** until the end of your next turn or until you are no longer in range. They may use their action to attempt to break the grapple by rolling **MIG** contested by your **END**. You may attempt to maintain the effect on up to [Tier] targets immediately after any other action (no action cost) on subsequent turns as long as you remain in range. You may drag immobilized targets at a cost of +1 additional square per square moved. 
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** One character  
+**Succeed:** Target is **Immobilized** until the end of your next turn or until you are no longer in range. They may use their action to attempt to break the grapple by rolling **MIG** contested by your **END**. You may attempt to maintain the effect on up to [Tier] targets immediately after any other action (no action cost) on subsequent turns as long as you remain in range. You may drag immobilized targets at a cost of +1 additional square per square moved.   
 **Critical:** Deal **Fatigue**
 
 #### Sockem
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** One enemy
-**Succeed:** Deal **Fatigue**. Target is **Slowed** until the end of their next turn.
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue**. Target is **Slowed** until the end of their next turn.  
 **Critical:** The duration of **Slowed** is extended until the end of the target's following turn.
 
 #### Bull Rush
 
-**Type:** Action (Physical Attack)
-**Range:** 3
-**Target:** One character
-**Effect:** Move to any open space adjacent to the target which is within half your speed of your starting position. 
-**Succeed:** If the target is an enemy, they take **Fatigue**
+**Type:** Action (Physical Attack)  
+**Range:** 3  
+**Target:** One character  
+**Effect:** Move to any open space adjacent to the target which is within half your speed of your starting position.   
+**Succeed:** If the target is an enemy, they take **Fatigue**  
 **Critical:** You may move the target to any space adjacent to their starting position.
 
 #### Guardian
 
-**Type:** Stance
-**Range:** 1
-**Trigger:** An enemy that has not triggered this stance on the current turn exits a square within range
-**Succeed:** Deal **Fatigue** to the triggering enemy
+**Type:** Stance  
+**Range:** 1  
+**Trigger:** An enemy that has not triggered this stance on the current turn exits a square within range  
+**Succeed:** Deal **Fatigue** to the triggering enemy  
 **Critical:** They must spend 2 extra squares of movement or else return to the square they exited.
 
 #### Pounce
 
-**Type:** Stance
-**Range:** 3
-**Trigger:** An enemy within range targets one of your allies with an ability.
-**Effect:** Move to any open space adjacent to the triggering enemy and make a Physical Attack
-**Succeed:** Deal **Fatigue**. 
-**Critical:** The target may redirect the triggering ability to you. If they don't, it resolves at **+1 Bane**.
+**Type:** Stance  
+**Range:** 3  
+**Trigger:** An enemy within range targets one of your allies with an ability.  
+**Effect:** Move to any open space adjacent to the triggering enemy and make a Physical Attack  
+**Succeed:** Deal **Fatigue**.   
+**Critical:** The target may redirect the triggering ability to you. If they don't, it resolves at **+1 Bane**.  
 
 #### Indefatigable
 
-**Type:** Passive
-**Effect:** Increase your maximum **Fatigue Tolerance** by 1+[Tier]
+**Type:** Passive  
+**Effect:** Increase your maximum **Fatigue Tolerance** by 1+[Tier]  
 
 #### Adrenaline
 
-**Type:** Passive
-**Effect:** When you are dealt **Fatigue** and are not incapacitated, you may end or ignore one **status** of your choice affecting (or that would effect) you. Once per round when you are dealt **stress** you may choose to take fatigue instead.
+**Type:** Passive  
+**Effect:** When you are dealt **Fatigue** and are not incapacitated, you may end or ignore one   **status** of your choice affecting (or that would effect) you. Once per round when you are dealt **stress** you may choose to take fatigue instead.
 
 
 ### Bladecraft
 
 #### Hack and Slash
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** One enemy
-**Succeed:** Deal **Fatigue**. The target gains **+1 Bleed**.
-**Critical:** The target gains **+2 Bleed** instead
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue**. The target gains **+1 Bleed**.  
+**Critical:** The target gains **+2 Bleed** instead  
 
 #### Bonk
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** One enemy
-**Succeed:** Deal **Fatigue**. The target is **Dazed** until the start of your next turn
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue**. The target is **Dazed** until the start of your next turn  
 **Critical:** The duration of **Dazed** is extended by a round
 
 #### Sweeping Attack
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** Two enemies within range
-**Succeed:** Deal **Fatigue**
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** Two enemies within range  
+**Succeed:** Deal **Fatigue**  
 
 #### Riposte
 
-**Type:** Stance
-**Range:** 1
-**Trigger:** An enemy in range targets you with an ability that can be contested by Evasion
+**Type:** Stance  
+**Range:** 1  
+**Trigger:** An enemy in range targets you with an ability that can be contested by Evasion  
 **Effect:** Roll Evasion. On a **Critical**, make a Physical Attack against the triggering enemy, dealing **Fatigue** on a success.
 
 #### Pivot
 
-**Type:** Stance
-**Trigger:** You or an adjacent character are targeted with an ability
+**Type:** Stance  
+**Trigger:** You or an adjacent character are targeted with an ability  
 **Effect:** End this stance and enter any **Basic Stance** of your choice. If the stance has an effect that shares a trigger with this one, you may carry it out immediately.
 
 #### Press Advantage
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Your attack abilities that target an enemy suffering a **Status** are at +1 Boon
 
 #### Long Reach
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Your abilities listed as having Range 1 have Range 2 instead
 
 ### Archery
 
 #### Piercing Shot
 
-**Type:** Action (Physical Attack)
-**Range:** 6
-**Target:** One enemy
-**Special:** Cannot be contested using abilities (i.e. standard defenses only)
+**Type:** Action (Physical Attack)  
+**Range:** 6  
+**Target:** One enemy  
+**Special:** Cannot be contested using abilities (i.e. standard defenses only)  
 **Succeed:** Deal **Fatigue**
 
 #### Trick Shot
 
-**Type:** Action (Physical Attack)
-**Range:** 6
-**Target:** One enemy
-**Succeed:** Deal **Fatigue**
+**Type:** Action (Physical Attack)  
+**Range:** 6  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue**  
 **Critical:** Make a Physical Attack against a second enemy in range of the first (as if you were standing in the space of the first target), dealing **Fatigue** on a success.
 
 #### Flaming Arrow
 
-**Type:** Action (Physical Attack)
-**Range:** 6
-**Target:** One enemy
+**Type:** Action (Physical Attack)  
+**Range:** 6  
+**Target:** One enemy  
 **Succeed:** Deal **Fatigue** and inflict **Burning**
 
 #### Propulsive Shot
 
-**Type:** Action (Physical Attack)
-**Range:** 6
-**Target:** One enemy
-**Succeed:** Deal **Fatigue** and push the target up to 1+[Tier] spaces (you may move them any direction provided each square of movement is in the same direction and leaves them further from you than they started)
+**Type:** Action (Physical Attack)  
+**Range:** 6  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue** and push the target up to 1+[Tier] spaces (you may move them any direction provided each square of movement is in the same direction and leaves them further from you than they started)  
 **Critical:** Push the target up to 1+2[Tier] spaces instead
 
 #### Prepared Shot
 
-**Type:** Stance
-**Effect:** Gain Aura 6
-**Trigger:** An enemy moves into the Aura
+**Type:** Stance  
+**Effect:** Gain Aura 6  
+**Trigger:** An enemy moves into the Aura  
 **Effect:** You may make a Physical Attack against the triggering enemy. If you do, end this stance and you cannot take an action during your next turn (you can still move and take a new stance).
-**Succeed:** Deal **Fatigue**.
+**Succeed:** Deal **Fatigue**.  
 
 #### Sniper
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** If you do not move during your turn your offensive ability rolls until the start of your next turn have +1 Boon
 
 #### Strafe
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** You may take an action during your Move instead of afterwards, provided each square moved during your turn is in the same direction.
 
 ### Ninjutsu
 
 #### Assassinate
 
-**Type:** Action (Physical Attack)
-**Range:** 3
-**Target:** One enemy
-**Succeed:** Deal **Fatigue** equal to one plus the number of stacks of **Mark** on the target. If the target becomes incapacitated, clear all stacks of **Mark** and become **Hidden** until the start of your next turn. Otherwise, reduce their **Mark** by one.
-**Effect:** You may move up to half your speed (round up) after this ability resolves, hit or miss.
-**Critical:** Move up to your full speed instead.
+**Type:** Action (Physical Attack)  
+**Range:** 3  
+**Target:** One enemy  
+**Succeed:** Deal **Fatigue** equal to one plus the number of stacks of **Mark** on the target. If the target becomes incapacitated, clear all stacks of **Mark** and become **Hidden** until the start of your next turn. Otherwise, reduce their **Mark** by one.  
+**Effect:** You may move up to half your speed (round up) after this ability resolves, hit or miss.  
+**Critical:** Move up to your full speed instead.  
 
 #### Study
 
-**Type:** Action
-**Range:** 3
-**Target:** One enemy
-**Effect:** Apply **+1 Mark** to the enemy and become **Hidden**
+**Type:** Action  
+**Range:** 3  
+**Target:** One enemy  
+**Effect:** Apply **+1 Mark** to the enemy and become **Hidden**  
 
 #### Flashbang
 
-**Type:** Action (Physical Attack)
-**Range:** 3
-**Target:** Area 2
-**Succeed:** Deal **Stress**, and target is **Blinded** until the start of your next turn.
-**Critical:** The target is also **Disoriented** until they successfully end the effect
+**Type:** Action (Physical Attack)  
+**Range:** 3  
+**Target:** Area 2  
+**Succeed:** Deal **Stress**, and target is **Blinded** until the start of your next turn.  
+**Critical:** The target is also **Disoriented** until they successfully end the effect  
 
 #### Quiet Mind
 
-**Type:** Stance
-**Trigger:** You would take **Fatigue** or **Stress**
+**Type:** Stance  
+**Trigger:** You would take **Fatigue** or **Stress**  
 **Effect:** Instead of taking the triggering fatigue or stress you may choose to end this stance
 
 #### Seize the Opportunity
 
-**Type:** Stance
-**Effect:** Gain +1 Boon on Attacks
+**Type:** Stance  
+**Effect:** Gain +1 Boon on Attacks  
 
 #### Fleet Footed
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Increase your Speed by [Tier]
 
 #### Transpositional
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** During your move you may spend 1 space of movement to swap places with an adjacent character
 
 ### Kineticism
 
 #### Three Body Problem
 
-**Type:** Action (Physical Attack)
-**Range:** 1
-**Target:** One character in range and a second character within 4 and sharing a row or column with the first
-**Effect:** Propel one or both targets closer to each other along the line until they are adjacent
-**Succeed:** You may deal **Fatigue** to one [Tier 2: or both] of the targets
+**Type:** Action (Physical Attack)  
+**Range:** 1  
+**Target:** One character in range and a second character within 4 and sharing a row or column with the first  
+**Effect:** Propel one or both targets closer to each other along the line until they are adjacent  
+**Succeed:** You may deal **Fatigue** to one [Tier 2: or both] of the targets  
 **Critical:** The target is **Dazed** until the start of your next turn
 
 #### Vector Field
 
-**Type:** Action (Terrain Effect)
-**Range:** 4
-**Target:** Area 3+[Tier]
+**Type:** Action (Terrain Effect)  
+**Range:** 4  
+**Target:** Area 3+[Tier]  
 **Effect:** Indicate a side or corner of the area. Whenever a character moves into any space in the area they are pushed one space toward the indicated side or corner unless they spend an extra space of movement to resist this effect. Movement triggered by this effect does not trigger this effect.
 
 #### Accelerate
 
-**Type:** Action (Buff)
-**Range:** 4
-**Target:** One Ally or Self
+**Type:** Action (Buff)  
+**Range:** 4  
+**Target:** One Ally or Self  
 **Effect:** Target is **Hastened**
 
 #### Orthogonal Incidence
 
-**Type:** Stance
-**Trigger:** You are targeted with an ability that inflicts Fatigue or Stress by an enemy sharing a row or column with your position and at least 3 spaces away
-**Effect:** In lieu of contesting the ability normally you may instead contest using Kineticism and end this stance
-**Success:** Avoid the effect as if by Evasion
-**Critical:** Apply the effect to a new target sharing a row or column with you which is at a right angle to the row or column you share with the triggering enemy. 
+**Type:** Stance  
+**Trigger:** You are targeted with an ability that inflicts Fatigue or Stress by an enemy sharing a row or column with your position and at least 3 spaces away  
+**Effect:** In lieu of contesting the ability normally you may instead contest using Kineticism and end this stance  
+**Success:** Avoid the effect as if by Evasion  
+**Critical:** Apply the effect to a new target sharing a row or column with you which is at a right angle to the row or column you share with the triggering enemy.   
 
 #### Eigencomplex
 
-**Type:** Stance (Aura)
+**Type:** Stance (Aura)  
 **Effect:** Gain **Aura 2** and indicate an orientation: clockwise or counterclockwise. Whenever a character moves into any space in the aura, they are pushed one space in a cardinal direction in the indicated orientation unless they spend an extra space of movement to resist this effect. Movement triggered by this effect does not trigger this effect. You cannot be targeted by enemies in this aura unless they are orthogonally adjacent to you.
 
 #### Relay
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Allies may bounce abilities off of your space as if they were originating from you. You must be in range of their ability and they must have a clear line of effect to you which is not interrupted by cover.
 
 #### Newtonian Mechanics
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Whenever you target a creature or area with an ability using an action, you may move yourself [Tier] spaces further away from that creature (or from the closest space in the area).
 
 ### Mesmerism
 
 #### Compulsion
 
-**Type:** Action (Mental Attack)
-**Range:** 4
-**Target:** One enemy
-**Success:** Force the target to move up to their speed to any other space within range
+**Type:** Action (Mental Attack)  
+**Range:** 4  
+**Target:** One enemy  
+**Success:** Force the target to move up to their speed to any other space within range  
 **Critical:** Deal **Stress**
 
 #### Addle
 
-**Type:** Action (Mental Attack)
-**Range:** 4
-**Target:** One enemy
-**Success:** The target is **Disoriented** until they successfully end the effect. Tier 2: They are also **Slowed** until the start of your next turn.
+**Type:** Action (Mental Attack)  
+**Range:** 4  
+**Target:** One enemy  
+**Success:** The target is **Disoriented** until they successfully end the effect. Tier 2: They are also **Slowed** until the start of your next turn.  
 **Critical:** Deal **Stress**
 
 #### Puppet
 
-**Type:** Action (Mental Attack)
-**Range:** 4
-**Target:** One character in range
-**Success:** The target makes a **Basic Attack** against another target within 3 of them.
-**Critical:** If the target is an enemy, deal **Stress**
+**Type:** Action (Mental Attack)  
+**Range:** 4  
+**Target:** One character in range  
+**Success:** The target makes a **Basic Attack** against another target within 3 of them.  
+**Critical:** If the target is an enemy, deal **Stress**  
 
 #### The Prestige
 
-**Type:** Stance
-**Trigger:** You are targeted by an enemy attack
+**Type:** Stance  
+**Trigger:** You are targeted by an enemy attack  
 **Effect:** If there is another character adjacent to you, you may swap places with them, causing them to be targeted by the triggering attack instead of you. If the other character is an enemy, roll Mesmerism contested by their Resolve. If they succeed this effect fails but you may contest the triggering attack normally. Alternatively, or if there is no adjacent character, you may move to an adjacent space before the triggering attack resolves. If this puts you out of its range, it automatically fails. Otherwise, contest it normally.
 
 #### Mind Over Matter
 
-**Type:** Stance
-**Effect:** If you would take **Fatigue**, you may choose to take **Stress** instead. If you do, end this stance.
+**Type:** Stance  
+**Effect:** If you would take **Fatigue**, you may choose to take **Stress** instead. If you do, end this stance.  
 
 #### Composed
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Increase your maximum **Stress Tolerance** by 1+[Tier]
 
 #### Disappearing Act
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Whenever you successfully defend against an enemy attack, become **Hidden** until the start of your next turn.
 
 
@@ -648,49 +665,49 @@ All characters have access to the following abilities in addition to the ones th
 
 #### Fire Burst
 
-**Type:** Action (Physical Attack)
-**Range:** 4
-**Target:** Area 3+[Tier]
-**Success:** Characters in the area take **Fatigue** and are **Burning**. You take 1 **Stress** for each character in the area beyond the first.
+**Type:** Action (Physical Attack)  
+**Range:** 4  
+**Target:** Area 3+[Tier]  
+**Success:** Characters in the area take **Fatigue** and are **Burning**. You take 1 **Stress** for each character in the area beyond the first.  
 **Critical:** Reduce the **Stress** you take by 1 (can stack)
 
 #### Blizzard
 
-**Type:** Action (Terrain Effect)
-**Range:** 4
-**Target:** Area 3+[Tier]
+**Type:** Action (Terrain Effect)  
+**Range:** 4  
+**Target:** Area 3+[Tier]  
 **Effect:** Take **Stress**. Create a Terrain Effect. Entering any space in the area costs +1 square of movement. Whenever a character starts their turn in the area or enters it for the first time on a turn, roll Elementalism contested by their **Resilience**. If you succeed, they take **Fatigue**. At the start of your turn you may maintain the terrain effect by taking **Stress**.
 
 #### Unlimited Power
 
-**Type:** Action (Mental Attack)
-**Range:** Self
-**Target:** All creatures in an Aura 1+[Tier]
-**Effect:** Take **Stress** for each creature in the area beyond the first
-**Success:** Target takes **Fatigue** and is **Dazed**
+**Type:** Action (Mental Attack)  
+**Range:** Self  
+**Target:** All creatures in an Aura 1+[Tier]  
+**Effect:** Take **Stress** for each creature in the area beyond the first  
+**Success:** Target takes **Fatigue** and is **Dazed**  
 **Critical:** Reduce the **Stress** you take by 1 (can stack)
 
 #### Earthen Hide
 
-**Type:** Stance
-**Trigger:** You are targeted by a Physical Attack
+**Type:** Stance  
+**Trigger:** You are targeted by a Physical Attack  
 **Effect:** In lieu of rolling Resilience you may roll Elementalism, resolving the effect as if you had rolled Resilience. If you roll a Critical success, you may remain in this stance. Otherwise, end this stance.
 
 #### Cloak of Wind
 
-**Type:** Stance
-**Trigger:** You are targeted by a Physical Attack
+**Type:** Stance  
+**Trigger:** You are targeted by a Physical Attack  
 **Effect:** In lieu of rolling Evasion you may roll Elementalism, resolving the effect as if you had rolled Evasion. If you roll a Critical success, you may remain in this stance. Otherwise, end this stance.
 
 #### Pyromancer
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** Whenever a character in Range 6 removes the **Burning** condition, you may apply **Burning** to another character within range 1+[Tier] of them
 
 #### Cryomancer
 
-**Type:** Passive
-**Effect:** Whenever a character enters any space in a Terrain Effect you created, you may roll Elementalism contested by their **Resilience**. If you succeed they are **Slowed** until the end of their next turn.
+**Type:** Passive  
+**Effect:** Whenever a character enters any space in a Terrain Effect you created, you may roll Elementalism contested by their **Resilience**. If you succeed they are **Slowed** until the end of their next turn.  
 
 ### Animism
 
@@ -698,51 +715,51 @@ All characters have access to the following abilities in addition to the ones th
 
 #### Ameliorate
 
-**Type:** Action
-**Range:** [Tier]
-**Target:** One ally
-**Effect:** Reduce the target's **Fatigue** or **Stress** by 1
+**Type:** Action  
+**Range:** [Tier]  
+**Target:** One ally  
+**Effect:** Reduce the target's **Fatigue** or **Stress** by 1  
 
 #### Spirit Armor
 
-**Type:** Action (Buff)
-**Range:** 2
-**Target:** One ally
+**Type:** Action (Buff)  
+**Range:** 2  
+**Target:** One ally  
 **Effect:** If the target fails a roll to avoid being **Incapacitated** they may reroll. Succeed or fail this effect then ends.
 
 #### Command Aggressor
 
-**Type:** Action (Physical Attack)
-**Range:** 4
-**Effect:** When you take this action, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4. You may then have your minion make a Physical Attack against an enemy adjacent to it.
-**Success:** Deal **Fatigue**, and push the enemy up to [Tier] spaces in any direction.
-**Critical:** Push the enemy an additional [Tier] spaces.
+**Type:** Action (Physical Attack)  
+**Range:** 4  
+**Effect:** When you take this action, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4. You may then have your minion make a Physical Attack against an enemy adjacent to it.  
+**Success:** Deal **Fatigue**, and push the enemy up to [Tier] spaces in any direction.  
+**Critical:** Push the enemy an additional [Tier] spaces.  
 
 #### Command Protector
 
-**Type:** Stance
-**Range:** 4
-**Effect:** When you take or renew this stance, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4.
-**Trigger:** An enemy exits a space within [Tier] of your minion.
-**Effect:** Make a physical attack against the triggering enemy.
-**Success:** Deal **Fatigue**
+**Type:** Stance  
+**Range:** 4  
+**Effect:** When you take or renew this stance, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4.  
+**Trigger:** An enemy exits a space within [Tier] of your minion.  
+**Effect:** Make a physical attack against the triggering enemy.  
+**Success:** Deal **Fatigue**  
 
 #### Bolster
 
-**Type:** Stance
-**Range:** 4
-**Effect:** When you take or renew this stance, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4.
-**Effect:** Allies have +1 to all defensive rolls while within [Tier] of your Minion
+**Type:** Stance  
+**Range:** 4  
+**Effect:** When you take or renew this stance, if you do not already have a **Minion** in play, place a **Minion** in a space in range. If you already have a Minion in play, instead move it up to 4.  
+**Effect:** Allies have +1 to all defensive rolls while within [Tier] of your Minion  
 
 #### Channel Will
 
-**Type:** Passive
+**Type:** Passive  
 **Effect:** When you take the **Basic Attack** or **Resuscitate** action or the **Assist** or **Protect** stances, you may use your **Minion**'s space instead of your own for the purpose of determining whether a target is in Range. You may also select targets for other abilities you have as if you were in your Minion's space, but if they have a Range greater than [Tier], they are treated as if they had a Range of [Tier] instead (this does not apply to basic actions and stances).
 
 #### Enhanced Recovery
 
-**Type:** Passive
-**Effect:** When you take the **Recovery** action, you may reduce your **Fatigue** or **Stress** by 2 rather than 1, or you may reduce both of them by 1.
+**Type:** Passive  
+**Effect:** When you take the **Recovery** action, you may reduce your **Fatigue** or **Stress** by 2 rather than 1, or you may reduce both of them by 1.  
 
 ### Infusion
 
