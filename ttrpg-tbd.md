@@ -149,7 +149,7 @@ Research (REA, END)
     
 ## The Fundamental Dice Mechanic
 
-Most rolls consist of a contest between an active and reactive participant, though at times the reactive participant is the world itself. Each participant rolls **2d6** and adds an appropriate modifier, which may be associated with a combat or utility art, or simply with an attribute. Defenders often have more than one option for the attribute or ability they roll, with different consequences depending on the choice made. For instance, a basic sword attack can be contested either with END or REF, with different results depending on which defensive attribute is chosen. Ties always go to the defender.
+Most rolls consist of a contest between an active and reactive participant, though at times the reactive participant is the world itself. Each participant rolls **2d6** and adds an appropriate modifier, which may be associated with a combat or utility art, or simply with an attribute. Defenders often have more than one option for the attribute or ability they roll, with different consequences depending on the choice made. For instance, a basic sword attack can be contested either with **Resilience** (using **END**) or **Evasion** (using **REF**), with different results depending on which defensive attribute is chosen. Ties always go to the defender.
 
 ### Criticals
 
@@ -318,7 +318,14 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action  
 **Range:** 1  
 **Target:** One ally who is **Incapacitated**  
-**Effect:** The target is no longer **Incapacitated** and their **Fatigue** and **Stress** are halved (round down)
+**Effect:** The target is no longer **Incapacitated**, their **Fatigue** and **Stress** are halved (round down), and they clear any negative **statuses**
+
+#### Coup de Grace
+
+**Type:** Action  
+**Range:** 1  
+**Target:** One enemy who is **Incapacitated**  
+**Effect:** The enemy is removed from combat
 
 #### Brace
 
@@ -354,19 +361,24 @@ All characters have access to the following abilities in addition to the ones th
 
 ### Statuses
 
-**Immobilized:** Affected character cannot move except via teleportation or being moved by another effect
+Some statuses have a parameter X. When a character is affected by one of these statuses, reduce X by 1 at the end of each of their turns after any other "end of turn" effects resolve. 
+If X is reduced to 0 the status ends.
 
-**Slowed:** Affected character has -2 Speed and **+1 Bane** on **REF** rolls
+**Immobilized:** Affected character cannot move except via teleportation or being moved by another effect.
 
-**Bleed X:** At the start of the affected character's turn, they must roll against their fatigue tolerance as if taking damage. On a success, reduce their Bleed by 1. On a fail they are Incapacitated
+**Slowed X:** Affected character has -2 Speed and cannot take stances. When they end their turn, reduce X by 1.
 
-**Dazed:** Target suffers **+1 Bane** on all defensive rolls.
+**Bleed X:** At the start of the affected character's turn, they must roll against their fatigue tolerance as if taking damage. On a fail they are Incapacitated.
 
-**Burning:** The affected character takes **Fatigue** at the end of their turn and removes Burning. They may choose to forego their normal **Move** or take the **Recover** action to end the status early.
+**Dazed X:** Target suffers **+1 Bane** on all defensive rolls.
 
-**Blinded:** Abilities used by the affected character have their range halved (rounded up) and abilities targeting enemies in nonadjacent spaces are at **+1 Bane**.
+**Burning X:** The affected character takes **Fatigue** at the end of their turn. They may choose to forego their normal **Move** or take the **Recover** action to end the status.
+
+**Blinded X:** Abilities used by the affected character have their range halved (rounded up) and attacks targeting enemies in nonadjacent spaces are at **+1 Bane**.
 
 **Disoriented:** When the affected character tries to move to an adjacent space, they must roll 2d6. On a result of 7 they move as intended and this effect ends. If the result is greater than 7, count a number of spaces clockwise from their starting position equal to the difference starting with the intended destination. They move instead to the resulting space. If the result is less than 7, instead proceed counterclockwise.
+
+**Stunned:** The affected character can Move or Act on their turn, but not both. At the end of their turn, this effect ends.
 
 ### Buffs
 
@@ -391,8 +403,8 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Physical Attack)  
 **Range:** 1  
 **Target:** One enemy  
-**Succeed:** Deal **Fatigue**. Target is **Slowed** until the end of their next turn.  
-**Critical:** The duration of **Slowed** is extended until the end of the target's following turn.
+**Succeed:** Deal **Fatigue**. Target gains +[Tier] **Slowed**.  
+**Critical:** The target is also **Stunned**.
 
 #### Bull Rush
 
@@ -428,7 +440,7 @@ All characters have access to the following abilities in addition to the ones th
 #### Adrenaline
 
 **Type:** Passive  
-**Effect:** When you are dealt **Fatigue** and are not incapacitated, you may end or ignore one   **status** of your choice affecting (or that would effect) you. Once per round when you are dealt **stress** you may choose to take fatigue instead.
+**Effect:** When you are dealt **Fatigue** and are not incapacitated, you may end or ignore one **Status** of your choice affecting (or that would effect) you. Once per round when you are dealt **Stress** you may choose to take **Fatigue** instead.
 
 
 ### Bladecraft
@@ -438,22 +450,22 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Physical Attack)  
 **Range:** 1  
 **Target:** One enemy  
-**Succeed:** Deal **Fatigue**. The target gains **+1 Bleed**.  
-**Critical:** The target gains **+2 Bleed** instead  
+**Succeed:** Deal **Fatigue**. The target gains +[Tier] **Bleed**.  
+**Critical:** The target gains +2[Tier] **Bleed** instead  
 
-#### Bonk
+#### Bash
 
 **Type:** Action (Physical Attack)  
 **Range:** 1  
 **Target:** One enemy  
-**Succeed:** Deal **Fatigue**. The target is **Dazed** until the start of your next turn  
-**Critical:** The duration of **Dazed** is extended by a round
+**Succeed:** Deal **Fatigue**. The target gains +[Tier] **Dazed**.  
+**Critical:** The target also gains +1 **Blinded**.
 
 #### Sweeping Attack
 
 **Type:** Action (Physical Attack)  
 **Range:** 1  
-**Target:** Two enemies within range  
+**Target:** 1+[Tier] enemies within range  
 **Succeed:** Deal **Fatigue**  
 
 #### Riposte
@@ -502,7 +514,7 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Physical Attack)  
 **Range:** 6  
 **Target:** One enemy  
-**Succeed:** Deal **Fatigue** and inflict **Burning**
+**Succeed:** Deal **Fatigue** and inflict **Burning**.
 
 #### Propulsive Shot
 
@@ -523,7 +535,7 @@ All characters have access to the following abilities in addition to the ones th
 #### Sniper
 
 **Type:** Passive  
-**Effect:** If you do not move during your turn your offensive ability rolls until the start of your next turn have +1 Boon
+**Effect:** If you do not move during your turn your offensive ability rolls until the start of your next turn have +[Tier] Boons
 
 #### Strafe
 
@@ -538,8 +550,8 @@ All characters have access to the following abilities in addition to the ones th
 **Range:** 3  
 **Target:** One enemy  
 **Succeed:** Deal **Fatigue** equal to one plus the number of stacks of **Mark** on the target. If the target becomes incapacitated, clear all stacks of **Mark** and become **Hidden** until the start of your next turn. Otherwise, reduce their **Mark** by one.  
-**Effect:** You may move up to half your speed (round up) after this ability resolves, hit or miss.  
-**Critical:** Move up to your full speed instead.  
+**Effect:** You may move up to half your speed (round up) after this ability resolves, hit or miss. (Tier > 1: You may move an additional [Tier] spaces)  
+**Critical:** If the target becomes incapacitated, halve their stacks of **Mark** (round up) instead of clearing all stacks. Otherwise, do not reduce their **Mark**  
 
 #### Study
 
@@ -553,14 +565,14 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Physical Attack)  
 **Range:** 3  
 **Target:** Area 2  
-**Succeed:** Deal **Stress**, and target is **Blinded** until the start of your next turn.  
-**Critical:** The target is also **Disoriented** until they successfully end the effect  
+**Succeed:** Deal **Stress**, and target gains +[Tier] **Blinded**.  
+**Critical:** The target is also **Disoriented**.  
 
 #### Quiet Mind
 
 **Type:** Stance  
 **Trigger:** You would take **Fatigue** or **Stress**  
-**Effect:** Instead of taking the triggering fatigue or stress you may choose to end this stance
+**Effect:** Instead of taking the triggering fatigue or stress you may choose to end this stance.
 
 #### Seize the Opportunity
 
@@ -575,7 +587,7 @@ All characters have access to the following abilities in addition to the ones th
 #### Transpositional
 
 **Type:** Passive  
-**Effect:** During your move you may spend 1 space of movement to swap places with an adjacent character
+**Effect:** During your move you may spend 1 space of movement to swap places with an adjacent character (Tier 2: You do not need to spend movement to swap)
 
 ### Kineticism
 
@@ -586,7 +598,7 @@ All characters have access to the following abilities in addition to the ones th
 **Target:** One character in range and a second character within 4 and sharing a row or column with the first  
 **Effect:** Propel one or both targets closer to each other along the line until they are adjacent  
 **Succeed:** You may deal **Fatigue** to one [Tier 2: or both] of the targets  
-**Critical:** The target is **Dazed** until the start of your next turn
+**Critical:** The target gainst +1 **Dazed**.
 
 #### Vector Field
 
@@ -640,7 +652,7 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Mental Attack)  
 **Range:** 4  
 **Target:** One enemy  
-**Success:** The target is **Disoriented** until they successfully end the effect. Tier 2: They are also **Slowed** until the start of your next turn.  
+**Success:** The target is **Disoriented**. (Tier > 1: They also gain +1 **Slowed** for each Tier above 1).  
 **Critical:** Deal **Stress**
 
 #### Puppet
@@ -648,7 +660,7 @@ All characters have access to the following abilities in addition to the ones th
 **Type:** Action (Mental Attack)  
 **Range:** 4  
 **Target:** One character in range  
-**Success:** The target makes a **Basic Attack** against another target within 3 of them.  
+**Success:** The target makes a **Basic Attack** against a valid target.  
 **Critical:** If the target is an enemy, deal **Stress**  
 
 #### The Prestige
@@ -696,7 +708,7 @@ All characters have access to the following abilities in addition to the ones th
 **Range:** Self  
 **Target:** All creatures in an Aura 1+[Tier]  
 **Effect:** Take **Stress** for each creature in the area beyond the first  
-**Success:** Target takes **Fatigue** and is **Dazed**  
+**Success:** Target takes **Fatigue** and gainst +1 **Dazed**  
 **Critical:** Reduce the **Stress** you take by 1 (can stack)
 
 #### Earthen Hide
@@ -719,7 +731,7 @@ All characters have access to the following abilities in addition to the ones th
 #### Cryomancer
 
 **Type:** Passive  
-**Effect:** Whenever a character enters any space in a Terrain Effect you created, you may roll Elementalism contested by their **Resilience**. If you succeed they are **Slowed** until the end of their next turn.  
+**Effect:** Whenever a character enters any space in a Terrain Effect you created, you may roll Elementalism contested by their **Resilience**. If you succeed they gain +1 **Slowed**.
 
 ### Animism
 
@@ -775,3 +787,16 @@ All characters have access to the following abilities in addition to the ones th
 
 ### Infusion
 
+#### Infuse Weapon
+
+**Type:** Action  
+**Effect:** Make a Basic Attack against a valid target. If you succeed, choose one of the following statuses to apply to the target: **Burning**, +1 **Slowed**, +1 **Blinded** or +1 **Dazed**  
+
+#### Infuse Armor
+
+**Type:** Stance  
+**Trigger:** You succeed on a Resilience roll against an enemy attack  
+**Effect:** Push the enemy up to 1+[Tier] spaces away from you (each space pushed must be in the same direction and must increase the distance between you). 
+If you critically succeed, push them an additional [Tier] spaces. The attack otherwise resolves as normal based on the rolls involved.  
+
+#### 
