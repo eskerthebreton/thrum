@@ -105,48 +105,47 @@ Infusion (REA,END)
    * Defense: Moderate
    * Flexibility: High
    * Control: Low
-   * Signature: Balanced, Flexible Fighting Style
+   * Signature: Balanced, Adaptable Fighting Style
 
 ## Defenses
 
 Resilience (END)
-    * Mitigating damage from physical attacks, shrugging off toxins
+   * Mitigating damage from physical attacks, shrugging off toxins
     
 Evasion (REF)
-    * Avoiding damaging effects by moving out of the way
+   * Avoiding damaging effects by moving out of the way
     
 Resolve (FOC)
-    * Resisting mental drain or coercion
+   * Resisting mental drain or coercion
 
 ## Utility Arts
 
 Construction (MIG, END)
-    * Creation and repair of static structures such as fortifications
+   * Creation and repair of static structures such as fortifications
     
 Athletics (MIG, REF)
-    * Feats of physical prowess such as breaking down barriers or leaping long distances
+   * Feats of physical prowess such as breaking down barriers or leaping long distances
     
 Craft (FIN, END)
-    * Creation and repair of portable items requiring fine motor control
+   * Creation and repair of portable items requiring fine motor control
     
 Stealth (FIN, REF)
-    * Moving without being detected, blending in to a crowd
+   * Moving without being detected, blending in to a crowd
     
-Problem-Solving (REA, REF)
-    * Piecing together evidence, solving puzzles
+Reconaissance (REA, REF)
+   * Gathering information through observation
     
 Influence (FIN, FOC)
-    * Persuading or deceiving individuals by argument and/or performance
-    
-Research (REA, FOC)
-    * Obtaining relevant information and discovering new knowledge 
-    
-Leadership (MIG, FOC)
-    * Rallying groups to a cause or intimidating them into submission
-    
-Reconaissance (REA, END)
-    * Gathering information through observation
+   * Persuading or deceiving individuals by argument and/or performance
 
+Problem-Solving (REA, FOC)
+   * Piecing together evidence, solving puzzles
+   
+Leadership (MIG, FOC)
+   * Rallying groups to a cause or intimidating them into submission
+   
+Research (REA, END)
+   * Obtaining relevant information and discovering new knowledge    
     
 ## The Fundamental Dice Mechanic
 
@@ -180,7 +179,15 @@ A square counts as **adjacent** to another square if it is one step away (i.e., 
 
 #### Areas of Effect
 
-When something targets an area, its area of effect is either listed as **Area X** or as a **Radius X** (where X is an integer). An Area X consists of a square on the grid which is X unit squares on a side. So, an Area 2 is a 2x2 square, Area 3 is a 3x3, and so on. A Radius X area originates from the source of the effect (e.g., a character casting a spell) and extends to all squares at range X or less from the source square. So, a Radius 1 effect impacts a 3x3 square centered on the source, a Radius 2 effect impacts a 5x5 square, etc. An **Aura X** is an area of Radius X that remains centered on the target even if they move.
+When something targets an area, its area of effect is either listed as **Area X** or as an **Aura X** (where X is an integer). An **Area X** consists of a square on the grid which is X unit squares on a side. So, an Area 2 is a 2x2 square, Area 3 is a 3x3, and so on. The area must have at least one of its spaces within the range of the ability that places it.
+
+An **Aura X** area consists of all squares at a distance X or less from the ability user and remains centered on the target even if they move. So, an Aura 1 effect impacts a 3x3 square centered on the source, an Aura 2 effect impacts a 5x5 square, etc.
+
+#### Terrain Effects and Buffs
+
+Some abilities create **Terrain Effects**, which are areas that exert an ongoing influence on characters in or passing through them but do not directly target characters. A particular character can only have one Terrain Effect in place at a time: if they create a new one any previously placed Terrain Effects disappear.
+
+Other abilities are tagged as **Buffs**. These generally target the ability user themselves or an allied character and persist until the end of combat unless they specify a condition under which they end sooner. A particular character can have any number of buffs created by their abilities active at a time, but a particular target can benefit from only one at a time. If a target who is already benefitting from a Buff effect is targeted by another one, they may choose whether to end the previous one or decline the new one.
 
 ### Rounds, Turns and Actions
 
@@ -188,7 +195,7 @@ Combat is divided into **Rounds**, in which each character (PC and NPC) particip
 
 Turns within a round take place in descending order of initiative. This order remains the same round after round unless a character elects to **Delay** their turn. A player (or the GM) can choose to delay acting in a round until a specified point in the initiative order. If they do, their turns take place at that later position for the rest of the combat. This can only be done once per round, so if for instance Bob rolled the highest initiative total, and elects to delay their turn until after Alice, Alice could choose in turn to delay her turn until after Bob, but at that point Bob would have to act (he cannot delay again).
 
-At the start of combat a special "round zero" occurs, in which characters take no actions, but on their turn can position themselves within the **deployment zone** designated by the GM, and enter a **Stance** (see Action Economy).
+At the start of combat a special **Round Zero** occurs, in which characters take no actions, but on their turn can position themselves within the **Deployment Zone** designated by the GM, and enter a **Stance** (see Action Economy).
 
 #### Action Economy
 
@@ -196,7 +203,7 @@ On a normal turn (i.e., after the setup round), a character can **Move**, **Act*
 
 ### Incapacity and Death
 
-Unlike in many other games, characters do not have hit points (or a health pool). Instead, when a foe is successful in hitting them with an attack, offensive spell, or similar, the target often receives a point of either **Fatigue** or **Stress**. Whenever Fatigue or Stress is added, the GM rolls 2d6, adding the total points of Fatigue or Stress carried by the character (including the new source). If the total exceeds (not ties) the character's corresponding **Tolerance** (normally 10 plus their END modifier in the case of Fatigue Tolerance, or 10 plus their FOC modifier in the case of Stress Tolerance), they are **Incapacitated (Fatigue)** or **Incapacitated (Stress)** and cannot move, act, or take stances until they are no longer Incapacitated.
+Unlike in many other games, characters do not have hit points (or a health pool). Instead, when a foe is successful in hitting them with an attack, offensive spell, or similar, the target often receives a point of either **Fatigue** or **Stress**. Whenever Fatigue or Stress is added, the GM rolls 2d6, adding the total points of Fatigue or Stress carried by the character (including the new source). If the total exceeds (not ties) the character's corresponding **Tolerance**, they are **Incapacitated (Fatigue)** or **Incapacitated (Stress)** and cannot move, act, or take stances until they are no longer Incapacitated.
 
 Upon becoming Incapacitated, and at the end of each of their turns while Incapacitated, a character's corresponding Tolerance score (Fatigue or Stress depending on which was the source of the incapacity) is reduced by 1 as is their points of Fatigue or Stress. If either of a character's tolerance scores ever reaches zero, they die. 
 
@@ -210,17 +217,17 @@ When a character is targeted by an ability with the Attack type, they always hav
 
 ### Standard Defensive Rolls
 
-When a character is targeted by a Physical Attack they may choose to defend using their choice of Resilience or Evasion, but must choose which to use before the offensive roll is made. This choice involves tradeoffs, with Evasion presenting a binary contrast between success and failure, while choosing Resilience provides for a range of outcomes including mitigated success and mitigated failure.
+When a character is targeted by a Physical Attack they may choose to defend using their choice of **Resilience** or **Evasion**, but must choose which to use before the offensive roll is made. This choice involves tradeoffs, with Evasion presenting a binary contrast between success and failure, while choosing Resilience provides for a range of outcomes including mitigated success and mitigated failure.
 
-When targeted by a Mental Attack, Resolve is the standard defense.
+When targeted by a Mental Attack, **Resolve** is the standard defense.
 
 #### Evasion 
 
-Evasion rolls use your REF modifier. Evasion is all or nothing: a successful roll avoids the effect entirely, whereas a failed roll results in taking the full effect. 
+Evasion rolls use your **REF** modifier. Evasion is all or nothing: a successful roll avoids the effect entirely, whereas a failed roll results in taking the full effect. 
 
 #### Resilience
 
-Resilience uses your END modifier. In contrast to Evasion, Resilience has a gradation of outcomes: 
+Resilience uses your **END** modifier. In contrast to Evasion, Resilience has a gradation of outcomes: 
 
 * **Critical**: Avoid the effects
 * **Success**: Take Fatigue (but no more than one point) but skip the roll to become **Incapacitated**
@@ -228,55 +235,61 @@ Resilience uses your END modifier. In contrast to Evasion, Resilience has a grad
 
 #### Resolve
 
-Resolve rolls use your FOC modifier. Unless the offensive ability specifies otherwise, the outcome is simply success or failure, similar to Evasion for Physical attacks.
+Resolve rolls use your **FOC** modifier. Unless the offensive ability specifies otherwise, the outcome is simply success or failure, similar to Evasion for Physical attacks.
 
 ## Character Creation
 
-Players begin with a pool of 1 generic attribute point, 2 subattribute points, 3 combat arts points and 3 utility arts points. 
+Players begin with a pool of 1 General Attribute points, 2 Specific Atribute points, 3 Combat Arts points and 3 Utility Arts points. 
 
 ### Allocating General Attributes
 
-First, generic attribute points are used to raise Physique (PHY), Sensorimotor (SEN) and/or Cognition (COG), which in turn raise their corresponding subattributes. For example, assigning +1 to PHY would raise one's modifiers for Might (MIG) and Endurance (END), and assigning +1 to SEN would raise Finesse (FIN) and Reflex (REF).
+First, General Attribute points are used to raise Physique (PHY), Sensorimotor (SEN) and/or Cognition (COG), which in turn raise their corresponding subattributes. For example, assigning +1 to PHY would raise one's modifiers for Might (MIG) and Endurance (END), and assigning +1 to SEN would raise Finesse (FIN) and Reflex (REF).
 
 ### Allocating Specific Attributes
 
-Next, subattribute points are used to further raise individual subattributes: Might, Endurance, Finesse, Reflex, Reasoning and Focus. These are added to any points these attributes inherit from their generic attribute. So, having assigned +1 to PHY in the previous step and to MIG and REF here would result in a +2 modifier for MIG (since it falls under PHY and was also raised directly), +1 for REF (which was raised directly) and END (which benefits indirectly from PHY) and +0 to FIN (neither raised directly or indirectly).
+Next, Specific Attribute points are used to further raise individual subattributes: **Might (MIG)**, **Endurance (END)**, **Finesse (FIN)**, **Reflex (REF)**, **Reasoning (REA)** and **Focus (FOC)**. These are added to any points these attributes inherit from their generic attribute. So, having assigned +1 to **PHY** in the previous step and to **MIG** and **REF** here would result in a +2 modifier for **MIG** (since it falls under **PHY** and was also raised directly), +1 for **REF** (which was raised directly) and **END** (which benefits indirectly from PHY but wasn't raised directly) and +0 to FIN (neither raised directly or indirectly).
 
 ### Allocating Arts Points
 
-Combat Arts points are allocated similarly. The overall modifer for combat arts consists of three components: the number of points directly allocated to it, the full modifier of its primary attribute, and half of the modifier (rounded down) of its secondary attribute. Following the example character above, suppose they allocated +1 to Bladecraft and +2 to Kineticism. This would produce a Bladecraft modifier of +3: +1 from the point to Bladecraft, +2 from the MIG modifier, and none from REF since half of +1 rounded down is 0. The Kineticism modifier would be +2 from the direct allocation but it does not benefit from attribute modifiers since REA was not raised and REF is not yet high enough to contribute as a secondary attribute. They would also have a +2 modifier for Unarmed and Animism due to the MIG modifier even though these were not raised directly.
+Combat Arts points are allocated similarly. The overall modifer for combat arts consists of three components: the number of points directly allocated to it, the full modifier of its primary attribute, and half of the modifier (rounded down) of its secondary attribute. 
+
+Following the example character above who raised **PHY**, **MIG** and **REF**, suppose they also allocated +1 to **Bladecraft** and +2 to **Kineticism**. This would produce a **Bladecraft** modifier of +3: +1 from the point to **Bladecraft**, +2 from the **MIG** modifier, and none from **REF** since half of +1 rounded down is 0. The **Kineticism** modifier would be +2 from the direct allocation but it does not benefit from attribute modifiers since **REA** was not raised and **REF** is not yet high enough to contribute as a secondary attribute. They would also have a +2 modifier for **Unarmed** and **Animism** even though these weren't invested in explicitly, due to the **MIG** modifier.
 
 The same process is followed for Utility Arts, with the modifier consisting of direct allocation, the full primary attribute modifier and half the secondary modifier (rounded down).
 
 ### Defensive Modifiers and Tolerance
 
-Defensive modifiers are not added to directly, but are directly inherited from one of the three "passive" attributes (END, REF, and FOC).
+Defensive modifiers are not added to directly, but are directly inherited from one of the three "passive" attributes (**END**, **REF**, and **FOC**).
 
-The endurance and focus modifiers also determine a character's **fatigue tolerance** and **stress tolerance** respectively (see Incapacity and Death), which start out equal to 10 plus the corresponding modifier. There is no corresponding tolerance score related to Reflex; instead, Reflex contributes to reaction time via **initiative** (see Rounds, Turns and Actions).
+The END and FOC modifiers also determine a character's **Fatigue Tolerance** and **Stress Tolerance** respectively (see Incapacity and Death), which start out equal to 10 plus the corresponding modifier. There is no corresponding tolerance score related to Reflex; instead, Reflex contributes to reaction time via **Initiative** (see Rounds, Turns and Actions).
+
+### Speed
+
+All characters start with a Speed of 4, though some abilities may modify this.
 
 ### Ability Selection
 
-Finally, abilities associated with combat arts are selected. The number of abilities selected for an art is equal to the direct point allocation to that art. So, the example character would choose one Bladecraft and two Kineticism abilities. Some abilities can be upgraded by foregoing the selection of a different ability in that discipline. These abilities refer to [Tier] in their description. When initially selected abilities are Tier 1 unless otherwise specified. Each upgrade increases their Tier by 1. 
+Finally, abilities associated with Combat Arts and Utility Arts are selected. The number of abilities selected across all Combat Arts is equal to the direct point investment in Combat Arts, and similarly for Utility Arts. This number starts at 3 and increases as characters level up. These picks can be distributed across any Arts in which at least 1 point has been invested. So, the example character who put +1 in **Bladecraft** and +2 in **Kineticism** would choose three abilities split any way they choose between Bladecraft and Kineticism. Some abilities can be upgraded by foregoing the selection of a different ability in that discipline. These abilities refer to [Tier] in their description. When initially selected abilities have a Tier equal to 1. Each upgrade increases their Tier by 1. 
 
 ### Leveling Up
 
-Characters can raise modifiers and gain and upgrade abilities as they level up, per the following table. Whenever the table indicates +1 to a Discipline, both a Combat Discipline and a Utility Discipline are raised. Moreoever, whenever a character gains a direct bonus to a combat art or utility art, they also select a new combat or utility ability, respectively (it does not have to come from discipline that was raised). At any given level a character has an accumulated number of ability picks (and/or ability upgrades) for each of combat and utility, as specified by the table. 
+Characters can raise modifiers and gain and upgrade abilities as they level up, per the following table. Whenever the table indicates +1 to an Art, both a Combat Art and a Utility Art are raised. Moreoever, whenever a character gains a direct bonus to a Combat Art or Utility Art, they also select a new combat or utility ability, respectively (it does not have to come from discipline that was raised). At any given level a character has an accumulated number of ability picks (and/or ability upgrades) for each of combat and utility, as specified by the table. 
 
 
 Level | Gained                     | Cumulative Ability Picks (Each Type)  
 ------|----------------------------|------------------------------------  
    1  | (see Character Creation)   |          3  
-   2  | +1 to a Discipline         |          4  
+   2  | +1 to an Art               |          4  
    3  | +1 to a Specific Attribute |          4  
-   4  | +1 to a Discipline         |          5  
+   4  | +1 to an Art               |          5  
    5  | +1 to a General Attribute  |          5  
-   6  | +1 to a Discipline         |          6  
+   6  | +1 to an Art               |          6  
    7  | +1 to a Specific Attribute |          6  
-   8  | +1 to a Discipline         |          7  
+   8  | +1 to an Art               |          7  
    9  | +1 to a General Attribute  |          7  
-  10  | +1 to a Discipline         |          8  
+  10  | +1 to an Art               |          8  
   11  | +1 to a Specific Attribute |          8  
-  12  | +1 to a Discipline         |          9  
+  12  | +1 to an Art               |          9  
    
 ## Basic Abilities
 
@@ -360,7 +373,6 @@ All characters have access to the following abilities in addition to the ones th
 **Hidden:** Abilities targeting the affected character have their range halved (rounded up) and abilities targeting them from nonadjacent spaces are at **+1 Bane**. The condition ends if the affected character targets an enemy with any ability or is targeted by an enemy from an ajdacent space.
 
 **Hastened:** Affected character has +2 Speed and **+1 Boon** on **REF** rolls
-
 
 ## Ability List
 
