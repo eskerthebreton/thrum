@@ -149,7 +149,7 @@ Research (REA, END)
     
 ## The Fundamental Dice Mechanic
 
-Most rolls consist of a contest between an active and reactive participant, though at times the reactive participant is the world itself. Each participant rolls **2d6** and adds an appropriate modifier, which may be associated with a combat or utility art, or simply with an attribute. Defenders often have more than one option for the attribute or ability they roll, with different consequences depending on the choice made. For instance, a basic sword attack can be contested either with **Resilience** (using **END**) or **Evasion** (using **REF**), with different results depending on which defensive attribute is chosen. Ties always go to the defender.
+Most rolls consist of a contest between an active and reactive participant, though at times the reactive participant is the world itself. Each participant rolls **2d6** and adds an appropriate modifier, which may be associated with a combat or utility art, or simply with an attribute. Defenders often have more than one option for the attribute or ability they roll, with different consequences depending on the choice made. For instance, a Basic Attack can be contested either with **Resilience** (using **END**) or **Evasion** (using **REF**), with different results depending on which defensive attribute is chosen. Ties always go to the defender.
 
 ### Criticals
 
