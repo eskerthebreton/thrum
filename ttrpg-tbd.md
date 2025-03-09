@@ -1,6 +1,6 @@
 ## Character Attributes
 
-The numerical description of a character's general physical and mental capacities is encoded as in many other games via _attributes_. There are three **general** attributes: **Physique (PHY)**, **Sensorimotor (SEN)** and **Cognition (COG)**, each of which is subdivded into two **specific** attributes, one more proactive and one more reactive or passive. Physique is divided into **Might (MIG)** and **Endurance (END)**, Sensorimotor into **Finesse (AGI)** and **Reflex (REF)**, and Cognition into **Reasoning (REA)** and **Focus (FOC)**. Each of these general and specific attributes are described next.
+The numerical description of a character's general physical and mental capacities is encoded as in many other games via _attributes_. There are three **general** attributes: **Physique (PHY)**, **Sensorimotor (SEN)** and **Cognition (COG)**, each of which is subdivded into two **specific** attributes, one more proactive and one more reactive or passive. Physique is divided into **Might (MIG)** and **Endurance (END)**, Sensorimotor into **Finesse (FIN)** and **Reflex (REF)**, and Cognition into **Reasoning (REA)** and **Focus (FOC)**. Each of these general and specific attributes are described next.
 
 ### Physique (PHY)
 
