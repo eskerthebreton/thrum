@@ -366,13 +366,13 @@ If X is reduced to 0 the status ends.
 
 **Immobilized:** Affected character cannot move except via teleportation or being moved by another effect.
 
-**Slowed X:** Affected character has -2 Speed and cannot take stances. When they end their turn, reduce X by 1.
+**Slowed X:** Affected character has -2 Speed and cannot take stances.
 
 **Bleed X:** At the start of the affected character's turn, they must roll against their fatigue tolerance as if taking damage. On a fail they are Incapacitated.
 
 **Dazed X:** Target suffers **+1 Bane** on all defensive rolls.
 
-**Burning X:** The affected character takes **Fatigue** at the end of their turn. They may choose to forego their normal **Move** or take the **Recover** action to end the status.
+**Burning:** The affected character takes **Fatigue** at the end of their turn. They may choose to forego their normal **Move** or take the **Recover** action to end the status.
 
 **Blinded X:** Abilities used by the affected character have their range halved (rounded up) and attacks targeting enemies in nonadjacent spaces are at **+1 Bane**.
 
@@ -778,7 +778,7 @@ If X is reduced to 0 the status ends.
 #### Channel Will
 
 **Type:** Passive  
-**Effect:** When you take the **Basic Attack** or **Resuscitate** action or the **Assist** or **Protect** stances, you may use your **Minion**'s space instead of your own for the purpose of determining whether a target is in Range. You may also select targets for other abilities you have as if you were in your Minion's space, but if they have a Range greater than [Tier], they are treated as if they had a Range of [Tier] instead (this does not apply to basic actions and stances).
+**Effect:** When you take the **Basic Attack**, **Resuscitate** or **Coup de Grace** action or the **Assist** or **Protect** stances, you may use your **Minion**'s space instead of your own for the purpose of determining whether a target is in Range. You may also select targets for other abilities you have as if you were in your Minion's space, but if they have a Range greater than [Tier], they are treated as if they had a Range of [Tier] instead (this does not apply to basic actions and stances).
 
 #### Enhanced Recovery
 
@@ -792,11 +792,42 @@ If X is reduced to 0 the status ends.
 **Type:** Action  
 **Effect:** Make a Basic Attack against a valid target. If you succeed, choose one of the following statuses to apply to the target: **Burning**, +1 **Slowed**, +1 **Blinded** or +1 **Dazed**  
 
-#### Infuse Armor
+#### Selective Ward
+
+**Type:** Action (Buff)  
+**Range:** 3  
+**Target:** Self or an Ally in Range  
+**Effect:** Choose one of the following statuses: **Burning**, **Slowed**, **Blinded**, **Dazed**. The target is immune to the effects of the chosen status and cannot receive additional stacks, though any stacks they have when this effect is applied remain and are reduced at the end of their turns as normal. Rather than choose a status you may instead grant the target the ability to selectively ignore the impact of terrain and terrain effects on their movement.
+
+#### Homing Beacon
+
+**Type:** Action (Terrain Effect)  
+**Range:** 0  
+**Target:** Area 3  
+**Effect:** While the effect is present, you may spend 4 spaces of movement or your Action to teleport to any space in the area from anywhere on the battlefield. Your allies may teleport in this way as well (using their own movement or action) if they are adjacent to you, or may teleport from the area to any space adjacent to you. (Tier 2: Teleporting costs only 2 spaces of movement)  
+
+#### Force Armor
 
 **Type:** Stance  
 **Trigger:** You succeed on a Resilience roll against an enemy attack  
-**Effect:** Push the enemy up to 1+[Tier] spaces away from you (each space pushed must be in the same direction and must increase the distance between you). 
+**Effect:** Push the enemy up to 1+[Tier] spaces away from you (each space pushed must be in the same direction and must increase the distance between you).   
 If you critically succeed, push them an additional [Tier] spaces. The attack otherwise resolves as normal based on the rolls involved.  
 
-#### 
+#### Magnetic Armor
+
+**Type:** Stance  
+**Trigger:** An enemy attempts to exit adjacency with you  
+**Effect:** You may make an Infusion roll contested by the triggering enemy's Resilience.  
+**Success:** The triggering enemy spends 2 squares of movement and does not move.  
+**Critical:** The triggering enemy spends 4 squares of movement instead.  
+
+#### Transmuter
+
+**Type:** Passive  
+**Effect:** Whenever you or one of your allies afflicts an enemy within range [Tier] with one of the following statuses: **Burning**, **Slowed**, **Blinded**, **Dazed**, 
+you may replace that application of the status with a different status from the same list.
+
+#### Resonance
+
+**Type:** Passive  
+**Effect:** Whenever you are suffering from **Burning**, **Slowed**, **Blinded** or **Dazed**, you may apply one stack of that status as part of a successful attack. If you are suffering from more than one, you may only apply one of them. This is in addition to any statuses the attack applies normally (and the stacks add together if the same status applies more than once and has a parameter).
