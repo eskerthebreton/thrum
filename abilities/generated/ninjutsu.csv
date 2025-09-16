@@ -1,0 +1,63 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Ninjutsu,Assassinate,Action,"Physical Attack, Finisher","Range: 3
+Target: One enemy
+Special: You have **1**$^a$ **Boon** on the attack if the target is **Marked**
+Succeed: Deal **2 Fatigue** plus additional Fatigue equal to the number of stacks
+of **Mark** on the target. If the target becomes Incapacitated, clear all
+stacks of **Mark** and become **Hidden**. Otherwise, reduce the target's
+**Mark** by one.  
+Critical: If the target becomes Incapacitated on the same turn you use this ability,
+apply **1**$^b$ **Mark** to another target in range. Otherwise, the target retains
+all **Mark** instead of reducing it.  
+","Add half your FIN to the number of Boons you gain against Marked targets  
+","Add half your REA to the number of stacks of Mark you apply to a new target
+on a Critical against a target that becomes Incapacitated, and add **+1 Mark**
+to the target when you get a Critical but do not Incapacitate the target  
+",
+1,Ninjutsu,Poison Dagger,Action,Physical Attack,"Range: 1
+Target: One enemy
+Effect: The target is **Scouted** and +**1**$^a$ **Hamstrung**
+Succeed: The target takes **1 Fatigue** and **1**$^a$ **Bleeding**  
+Critical: Deal an additional **1**$^b$ **Fatigue**
+Effect: You may move up to half your speed (round up) (plus **0**$^c$ additional spaces)
+after this ability resolves, hit or miss.  
+","Add half your FIN to the number of stacks of Hamstrung and Bleeding  
+","Add half your POW to the additional Fatigue you deal on a Critical  
+","Add half your FIN to the maximum spaces you may move after the attack  
+"
+2,Ninjutsu,Flashbang,Action,Mental Attack,"Range: 3
+Target: Area **2**$^c$
+Effect: Characters in the area gain +**1**$^b$ **Blinded**  
+Succeed: Deal **2 Stress**
+Critical: Deal an additional **1**$^a$ **Stress**, and
+characters in the area are **Disoriented**.  
+","Add half your REA to the additional Stress you deal on a Critical  
+","Add half your FIN to the stacks of Blinded  
+","You may increase the area by up to half your REA (you can set the area on each use)  
+"
+3,Ninjutsu,Quiet Mind,Stance,,"Trigger: You make an **Evasion** roll
+Effect: If you Critically Succeeded, you may remove **2**$^a$ stacks of any one status
+from yourself after the attack resolves. Otherwise, you may treat the outcome
+as one category better than the roll. In either case, end this stance.  
+","Add half your REA to the number of stacks removed on a Critical  
+","You may remove 1 stack of a status when you get a normal Success (before upgrading the result)
+",
+4,Ninjutsu,Study,Stance,,"Range: 3
+Target: One enemy
+Effect: The target gains **+1 Mark**, you become **Hidden**, and gain **Aura** **1**$^b$
+Trigger: A enemy with Mark enters a square in the Aura  
+Effect: The triggering enemy immediately gains +**1**$^a$ **Mark**  
+","Add half your FIN to the number of stacks of Mark applied by the Triggered Effect  
+","Increase the size of the Aura by half your REA  
+",
+5,Ninjutsu,Fleet Footed,Passive,,"Effect: Increase your Speed by **1**$^a$
+","Increase your Speed by an additional 1  
+","If you move at least 4 on your turn, gain +**1** **Boon** on your next attack  
+",
+6,Ninjutsu,Transpositional,Passive,,"Effect: During your move you may spend 1 space of movement to swap places
+with an ally in Range **1**$^b$
+","You may use this effect to swap with an enemy, and when you swap
+with an ally it does not cost movement.  
+","You may exchange places with an ally within a Range up to half your
+REA as a Teleport using only 1 space of movement  
+",

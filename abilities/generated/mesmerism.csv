@@ -1,0 +1,65 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Mesmerism,Compulsion,Action,Mental Attack,"Range: 4
+Target: One character. If the target is an ally they must be willing
+and the attack automatically Succeeds
+Effect: Force the target to move up to half their Speed to any other space
+of your choice within range  
+Success: Force the target to move up to their full Speed instead  
+Critical: If the target is an Enemy, deal $**2**^a$ **Stress**Overexert: If the attack Succeeds, the target is **Immobilized** until the end of their turn.
+You may choose to use **Overexert** after the attack resolves.  
+","Add half your REA to the additional Stress you deal on a Critical  
+","On a Critical, you may use the Overexert effect without taking Stress
+in lieu of the normal Critical effect  
+",
+1,Mesmerism,Addle,Action,Mental Attack,"Range: 4
+Target: One enemy
+Success: The target is **Disoriented** and gains +**1**$^b$ **Slowed**
+Overexert: Deal **2**$^a$ **Stress**  
+","Add half your REA to the additional Stress you deal when using Overexert  
+","Add half your FIN to the stacks of Slowed  
+",
+2,Mesmerism,Puppet,Action,Mental Attack,"Range: 4
+Target: One character in range. If the target is an ally the attack automatically Succeeds.
+Success: The target makes a **Basic Attack** against a valid target, resolved using your Mesmerism.  
+Overexert: You may direct the target to use a different action you have access to
+instead of a **Basic Attack**  
+Critical: If the target is an enemy, deal **2**$^a$ **Stress**  
+","Add half your REA to the additional Stress you deal on a Critical against the second target  
+","On a Critical against the first target, you may use the Overexert effect
+without taking Stress. If you do, you do not get this ability's normal
+Critical benefit against the second target  
+",
+3,Mesmerism,The Prestige,Stance,,"Range: **1**$^b$
+Trigger: You or an ally in Range are targeted by an enemy attack
+Effect: If there is another character in Range that isn't the attacker, you may
+swap places with them, causing the attack to target them instead of you
+or vice versa. This might cause an ability that can normally only target
+an enemy of the attacker to target their ally instead. If the new target
+is an enemy, make a Mental Attack against them. If they Succeed this effect
+fails but you may contest the triggering attack normally. After this effect
+triggers, end this stance unless you take **Stress** to maintain it.  
+","You may use the Effect even without an adjacent character, moving
+1 space before the attack resolves. If this results in you being
+out of range, the attack automatically Misses (you still take any
+effects that don't require a Success)  
+","Increase the Range to 2  
+",
+4,Mesmerism,Mind Over Matter,Stance,,"Effect: If you would take **Fatigue**, you may choose to reduce the Fatigue
+you take by up to **[1]** and take the same amount of **Stress** instead.
+If you do, end this stance unless you take an additional **[1] Stress**
+for each previous time you have used this effect since your last turn  
+","Increase the maximum amount of Fatigue you can convert to Stress by half your FOC  
+","Reduce the total amount of additional Stress required each time you
+maintain this stance by 1  
+",
+5,Mesmerism,Composed,Passive,,"Effect: Increase your **Maximum Stress Tolerance** by **1**$^a$ and gain
+a bonus on **Panic Rolls** of the same amount
+","Add an additional 1 to both  
+","Apply the bonus to your **Resolve** rolls as well  
+",
+6,Mesmerism,Disappearing Act,Passive,,"Effect: Whenever you successfully defend against an enemy attack, become **Hidden**.
+","In addition, gain **+1 Boon** on your next attack  
+","After applying this effect the next attack against you before the start
+of your turn has **+1 Bane**, and Hidden does not end before the start
+of your turn unless you are Successfully attacked by an adjacent enemy
+",

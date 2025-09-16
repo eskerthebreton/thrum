@@ -1,0 +1,66 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Brawling,Sockem,Action,"Physical Attack, Finisher","Range: 1
+Target: One enemy
+Effect: Choose one: move the target **1**$^b$ in any direction, or target gains **1**$^c$ Slowed**
+Succeed: Deal **2 Fatigue**
+Critical: Deal an additional **1**$^a$ **Fatigue** and the target is **Stunned**
+","Add half your POW to the additional Fatigue you deal on a Critical
+","Add half your REA to the distance you can move the target
+","When you add Slowed add additional stacks equal to half your FIN
+    
+"
+1,Brawling,Bull Rush,Action,"Physical Attack, Finisher","Range: 3
+Target: One character
+Effect: Move to any open space adjacent to the target which is within half your speed$^b$
+of your starting position
+Succeed: If the target is an enemy, they take **2 Fatigue**
+Critical: Deal an additional **1**$^(a)$ **Fatigue** and you may move the target
+to any open space adjacent to their starting position
+","Add half your POW to the additional Fatigue you deal on a Critical
+","Add half your FIN to the distance you can move before the attack
+",
+2,Brawling,Chokehold,Action,Physical Attack,"Range: 1
+Target: One character
+Succeed: Target is **Immobilized** and **Weakened** until you are no longer in range
+or you choose to release them at any time. You can only have up to **1**$^b$ targets
+in this effect at a time. If you would exceed this number, you can choose which to release.
+An affected target may use their Action to attempt to break this effect on their turn
+by making a Physical Attack contested by your **Resilience**.
+On a Critical Success they may take another action. You may drag immobilized targets at
+a cost of +1 additional square per square moved.
+Critical: Deal **1**$^a$ **Fatigue**
+","Add half your POW to the additional Fatigue you deal on a Critical
+","Add half your FIN to the number of targets you can affect at once
+",
+3,Brawling,Guardian,Stance,,"Trigger: An enemy that has not triggered this stance on the current turn exits a square
+adjacent to you as part of their Move, Action or Stance effect
+Effect: They must spend 2 extra squares of movement or else return to the square they exited.
+Make a Physical Attack against the triggering enemy.  
+Success: Deal **1**$^a$ **Fatigue**.  
+Critical: The target is **Immobilized** until the end of the turn.  
+","Add half your POW to the Fatigue you deal on a Success  
+","Enemy movement may trigger the effect when they exit a square within 2
+instead of needing to be adjacent, provided they are moving further away from you  
+",
+4,Brawling,Pounce,Stance,,"Range: 3
+Trigger: An enemy within range targets one of your allies with an attack
+Effect: You may move up to half your speed to any space adjacent to the triggering enemy and
+end this stance. If the attack does not target an Area, the target may redirect the
+triggering ability from the ally to you (this does not count as a new instance of
+targeting for the purpose of this or other triggered effects). If the attack targets
+multiple characters, only one of the targets is replaced. If the attack targets an
+Area or the attacker chooses not to retarget to you, they gain **+1 Weakened**.
+","You may deal **Fatigue** to the triggering enemy equal to half your POW
+","Instead of moving normally as part of the triggered effect, you may **Teleport**
+a number of spaces equal to 2 + half your REA
+",
+5,Brawling,Indefatigable,Passive,,"Effect: Increase your **Maximum Fatigue Tolerance** by **1**$^a$  
+","Further increase your Maximum Fatigue Tolerance by half your END   
+",,
+6,Brawling,Adrenaline,Passive,,"Effect: When you are dealt **Fatigue**, you may end or ignore
+one **Status** of your choice affecting (or that would effect) you.
+While you are **Exhausted** you have **+1**$^a$ **Boons** on **Panic Rolls**
+","Increase the number of Boons this ability grants to Panic Rolls by half your REA  
+","When you take Fatigue, you may choose to reduce your **Stress Load** by 1
+instead of ending or ignoring a Status
+",

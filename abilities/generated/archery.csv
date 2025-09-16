@@ -1,0 +1,59 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Archery,Piercing Shot,Action,"Physical Attack, Ranged, Finisher","Range: 6
+Target: One enemy
+Special: Targeting and effects from this ability do not trigger any
+Triggered Effects granted by enemy abilities
+Succeed: Deal **2 Fatigue**  
+Critical: Deal an additional **1**$^a$ **Fatigue**
+","Add half your POW to the additional Fatigue you deal on a Critical  
+","On a Critical, you may increase your Initiative for this combat by your REF  
+",
+1,Archery,Trick Shot,Action,"Physical Attack, Ranged, Finisher","Range: 6
+Target: One enemy
+Succeed: Deal **2 Fatigue**  
+Critical: Repeat this action immediately, targeting an enemy that has not been targeted
+by this ability this turn as if you were standing in the space of the first target.
+You have +**1**$^b$ **Bane** on the attack for each previous target of this ability this turn.  
+","On a Critical, deal additional Fatigue equal to half your POW  
+","Reduce the number of Banes applied for previous targets by half your REA  
+",
+2,Archery,Flaming Arrow,Action,"Physical Attack, Ranged","Range: 6
+Target: One enemy
+Succeed: Deal **2 Fatigue** and inflict **1**$^a$ **Burning**  
+","Add half your FIN to the number of Burning stacks you deal on a Success  
+","On a Critical, deal additional Fatigue equal to half your POW  
+",
+3,Archery,Point Blank Shot,Action,"Physical Attack, Ranged","Range: 2
+Target: One enemy
+Effect: Push the target up to **1**$^b$ spaces (you may move them any direction provided
+each square of movement is in the same direction and leaves them further from you
+than they started)
+Succeed: Deal **2 Fatigue**
+Critical: Deal an additional **1**$^a$ Fatigue and push the target up to an additional **1**$b$
+","Add half your POW to the additional Fatigue you deal on a Critical  
+","Add half your REA to the distance pushed and the additional distance pushed on a Critical  
+",
+4,Archery,Prepared Shot,Stance,,"Effect: Choose one: Gain Aura 6, or Gain Aura 4 and apply **1**$^b$ **Mark** to an enemy within 6
+Trigger: An enemy moves into the Aura
+Effect: You may make a Ranged Physical Attack against the triggering enemy,
+with **1**$^c$ **Boon** if the target is **Marked**. 
+If you do, end this stance and you cannot take an action during your next turn
+(you can still move and take a new stance).
+Succeed: Deal **Fatigue** equal to 2 plus the stacks of Mark on the target.
+Critical: Deal an additional **1**$^a$ **Fatigue**  
+","Add half your POW to the additional Fatigue you deal on a Critical  
+","Add half your FIN to the stacks of Mark you apply  
+","Add half your FIN to the number of Boons you gain against Marked targets  
+"
+5,Archery,Sniper,Passive,,"Effect: If you do not move during your turn your Ranged Attacks until the start of your
+next turn have **1**$^a$ **Boons**. Subtract 1 Boon for each enemy in range 2 of you
+when making the attack (this cannot cause you to lose more Boons than you gained
+from this ability).  
+","Increase the number of Boons by half your FIN  
+","You only subtract Boons for nearby enemies in excess of half your FOC  
+",
+6,Archery,Strafe,Passive,,"Effect: You may take an action during your Move instead of afterwards, provided each
+square moved during your turn is in the same direction. If you make an attack
+your remaining Movement may not take you further from the target than you were
+when you made the attack.
+",,,

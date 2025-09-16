@@ -1,0 +1,62 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Animism,Ameliorate,Action,,"Range: **1**$^a$
+Target: One Ally or Self
+Effect: Choose 1: Reduce the target's **Fatigue** by 1,
+reduce the target's **Stress** by 1, or
+reduce the stacks of a Status by 2
+Overexert: Choose 2 instead, or choose the same one twice  
+","Increase the Range by half your REA  
+","When you use this ability (in either its normal or Overexert modes)
+you may choose an additional option not already selected  
+",
+1,Animism,Spirit Armor,Action,Buff,"Range: 2
+Target: One Ally or Self
+Effect: The target may add your Animism Training level to a Defense roll,
+reducing any **Fatigue** or **Stress** taken by 1. Alternatively if they
+fail a Panic or Incapacity Roll they may reroll. Either way, end this Buff
+after it is used unless you take **Stress** to maintain it  
+","The bonus granted to the roll increases by half your FOC  
+","The target may add your Animism Training to their reroll  
+",
+2,Animism,Command Aggressor,Action,Physical Attack,"Range: 4
+Effect: Position a Minion. You may have your minion make a Physical Attack
+against an enemy adjacent to it (resolve using your Animism)
+Effect: Push the target **1**$^b$ spaces  
+Success: Deal **2 Fatigue**
+Critical: Deal an additional **1**$^a$ **Fatigue**   
+","Increase the additional Fatigue on a Critical by half your POW  
+","Increase the distance pushed by half your REA  
+",
+3,Animism,Command Protector,Stance,,"Range: 2
+Effect: When you take or renew this stance, Position a Minion  
+Trigger: An enemy exits a space adjacent to your minion for the first time on their turn.  
+Effect: You may make a Physical Attack against the triggering enemy.
+If you do, end this stance.  
+Success: Deal **1**$^a$ **Fatigue**  
+","Increase the Fatigue on a success by half your POW  
+","On a Critical, apply **Slowed** equal to half your FIN  
+",
+4,Animism,Bolster,Stance,,"Range: 2
+Effect: When you take or renew this stance, Position a Minion.  
+Effect: The minion has **Aura** **1**$^a$. You and your allies have
++**1**$^b$ to all defensive rolls while in the aura.  
+","Increase the size of the Aura by half your REA  
+","Increase the bonus to defensive rolls by half your FOC  
+",
+5,Animism,Channel Will,Passive,,"Effect: When you take the **Basic Attack** or **Resuscitate** actions or
+the **Assist** or **Protect** stances, you may use your **Minion**'s space
+instead of your own for the purpose of determining whether a target is in Range.
+You may also select targets for other abilities you have as if you were
+in your Minion's space, but if they have a Range greater than **[1]**,
+they are treated as if they had a Range of **[1]** instead (this does not
+apply to basic actions and stances).  
+","Increase the maximum Range of channeled non-Basic abilities by half your REA  
+","When you use a Basic Ability in this way, you may reduce your **Stress Load** by 1  
+",
+6,Animism,Soul Bond,Passive,,"Effect: When your minion would disappear as a result of taking Fatigue or Stress,
+you may prevent it from disappearing by taking **Stress**
+","If an ally adjacent to your minion would take **Fatigue** or **Stress**,
+you may reduce the amount they take by 1 by taking **Stress**  
+","When you would take **Fatigue** or **Stress** while you have a minion in play,
+you may reduce the amount you take by 1 by removing your minion from play
+",

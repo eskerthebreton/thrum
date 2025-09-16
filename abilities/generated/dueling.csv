@@ -1,0 +1,51 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Dueling,Precision Slash,Action,"Physical Attack, Finisher","Range: 1
+Target: One enemy
+Succeed: Deal **2 Fatigue**
+Critical: Deal an additional **1**$^a$ **Fatigue**  
+Effect: The target gains **1**$^b$ **Bleed**  
+","Add half your POW to Fatigue you deal on a Critical  
+","Increase the Bleed stacks by half your FIN  
+",
+1,Dueling,Pressure Points,Action,"Physical Attack, Finisher","Range: 1
+Target: One enemy
+Succeed: Deal **2 Fatigue**
+Critical: Deal an additional **1**$^a$ **Fatigue**  
+Effect: The target gains **1**$^b$ **Hamstrung**  
+","Add half your POW to Fatigue you deal on a Critical  
+","Increase the Hamstrung stacks by half your FIN  
+",
+2,Dueling,Whirling Slice,Action,"Physical Attack, Finisher","Range: 1
+Target: Up to **2**$^b$ enemies within range
+Succeed: Deal **1**$^a$ **Fatigue**  
+Critical: You may move the target 1 space to an unoccupied space within range  
+","Add half your POW to the damage you deal on a Success  
+","The maximum number of targets increases by half your REA  
+",
+3,Dueling,Parry and Riposte,Stance,,"Range: 1
+Trigger: An enemy in range targets you with an attack.
+Effect: You may add your Dueling Training Level to your defense roll.
+If you do, end this stance. If your contesting roll is a **Critical**,
+make a Physical Attack with Finisher against the triggering enemy,
+dealing **[1] Fatigue** on a Success.  
+","Add half your POW to the damage you deal on a Success  
+","Increase the bonus to your defense roll by an amount equal to half your FIN  
+",
+4,Dueling,Pivot,Stance,,"Trigger: You or an adjacent character are targeted with an attack
+Effect: End this stance and enter any **Basic Stance** of your choice.
+If the stance has an effect that shares a trigger with this one,
+you may carry it out immediately.
+","If the Stance would normally end after triggering, you may
+stay in it or enter a different Basic Stance instead  
+","If the Stance grants a Boon to your Defense Roll, gain an
+additional Boon for the attack triggering this ability  
+",
+5,Dueling,Press Advantage,Passive,,"Effect: Your attacks that target an enemy suffering at least one **Status**
+are at +**1**$^a$ Boons  
+","Gain additional Boons equal to half your FIN  
+","In addition, when you get a Critical against an enemy with one or more Statuses,
+add +1 additional stack. If the target has more than one, add +1 to up to
+half your FIN of them  
+",
+6,Dueling,Long Reach,Passive,,"Effect: Your abilities listed as having Range 1 have Range 2 instead
+",,,

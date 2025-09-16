@@ -1,0 +1,61 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Elementalism,Fire Burst,Action,"Physical Attack, Ranged","Range: 4
+Target: Area **2**$^a$
+Success: Characters in the area take **1 Fatigue**  
+Critical: Deal **1** additional Fatigue and the target gains +**1**$^b$ **Burning**  
+Overexert: Choose one: Increase the Area by 2, treat normal Successes as Criticals,
+or double the Critical effect  
+","Increase the area by half your REA  
+","Add +1 Burning on a Success effect, and increase the stacks on a Critical
+by half your POW  
+",
+1,Elementalism,Blizzard,Action,Terrain Effect,"Range: 4
+Target: Area **2**$^a$
+Effect: The area is **Difficult Terrain**.
+Overexert: Whenever a character starts their turn in the area or enters it
+for the first time on a turn, make a Physical Attack against them,
+dealing **Fatigue** on a success. At the start of your turn
+you may maintain this effect by paying the **Overexert** cost again.  
+","Increase the area by half your REA  
+","You don't need to pay the Overexert cost to maintain the Overexert effect
+provided your Stress Load does not exceed your Stress Tolerance  
+",
+2,Elementalism,Unlimited Power,Action,Mental Attack,"Range: Self
+Target: One adjacent enemy
+Success: Deal **2**$^a$ **Stress**
+Effect: The target gains +**1**$^b$ Shocked
+Overexert: The target becomes **Aura** **1**$^c$ and on a Success you may repeat
+this action immediately, except the targets are resolved as if you were
+the previous target, and you cannot target a character that has been
+targeted by this ability this turn.
+","Increase the Stress you deal on a Success by half your REA  
+","Increase the Shocked stacks by half your FIN  
+","Increase the Overexert Aura size by 1  
+"
+3,Elementalism,Earthen Hide,Stance,,"Trigger: You are targeted by a Physical Attack
+Effect: Add your Elementalism Training to your Resilience roll.
+If you roll a Critical success, you may remain in this stance.
+Otherwise, end this stance unless you take **Stress** to stay in it.  
+","Add half your POW to the bonus  
+","Reduce the threshold for a Critical Success by your FOC  
+",
+4,Elementalism,Cloak of Wind,Stance,,"Trigger: You are targeted by an Attack
+Effect: Add your Elementalism Training to your Evasion roll. If you roll a
+Critical Success, you may remain in this stance. Otherwise, end this stance
+unless you take **Stress** to stay in it.  
+","Add half your FIN to the bonus  
+","Reduce the threshold for a Critical Success by your FOC  
+",
+5,Elementalism,Living Spark,Passive,,"Range: **2**$^a$
+Effect: Whenever a character in Range loses the **Burning** condition
+without using the **Recover** action, you may apply +**1**$^b$ **Burning**
+to another character within half this ability's Range (rounded up) of them.  
+","Add half your REA to the Range  
+","Increase the stacks of Burning on the new target by half your FIN  
+",
+6,Elementalism,Deep Freeze,Passive,,"Effect: Whenever an enemy enters any space in a Terrain Effect you created
+for the first time on a turn, you may make a Mental Attack against them.
+On a Success they gain +**1**$^a$ **Slowed**  
+","Add half your FIN to the stacks of Slowed  
+","On a Critical, deal **Fatigue** equal to half your POW  
+",

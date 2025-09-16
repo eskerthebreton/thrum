@@ -1,0 +1,63 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Kineticism,Two Body Problem,Action,Physical Attack,"Range: 4
+Target: One character in range and a second character within 4
+who shares a row or column with the first target
+Effect: Propel one or both targets closer to each other along the line until
+they are adjacent or until they collide with another character or
+terrain +2 or more above their starting position
+Succeed: You may deal up to **2**$^a$ **Fatigue** split however you wish between
+the targets and any other character they collided with
+Critical: You may cause one$^b$ of the targets to become **Dazed**  
+","Add half your POW to the Fatigue you deal on a Success  
+","You may apply **Dazed** to one target on a Success or both targets on a Critical  
+",
+1,Kineticism,Vector Field,Action,Terrain Effect,"Range: 4
+Target: Area **2**$^a$
+Effect: Indicate a side or corner of the area. Whenever a character moves
+into any space in the area they are pushed one space toward
+the indicated side or corner unless they spend **1**$^b$ additional
+movement to resist this effect. Movement triggered by this effect
+does not trigger this effect.  
+","Add half your REA to the size of the Area  
+","Add 1 to the additional movement cost  
+",
+2,Kineticism,Accelerate,Action,"B, u, f, f","Range: 4
+Target: One Ally or Self
+Effect: Target is **Hastened**  
+","You may apply the effect to a second target   
+","After using this ability, you gain the benefit of the **Dodge** Basic Stance
+until the start of your next turn (in addition to your actual Stance)  
+",
+3,Kineticism,Orthogonal Incidence,Stance,,"Trigger: You are targeted with an ability that inflicts Fatigue or Stress
+by an enemy sharing a row or column with your position and at least 3 spaces away
+Effect: Add your Kineticism Training Level to your Defense roll and end this stance
+Critical: Apply the effect to a new target sharing a row or column with you
+which is at a right angle to the row or column you share with the
+triggering enemy (but reduce the Fatigue or Stress dealt by 1)$^b$
+","Gain an additional bonus to the Defense roll equal to half your REA  
+","The target takes the full impact of the effect on a Critical  
+",
+4,Kineticism,Eigencomplex,Stance,Aura,"Effect: Gain **Aura** **1**$^a$ and indicate an orientation: clockwise or counterclockwise.
+Whenever a character moves into any space in the aura, they are pushed one space
+in a cardinal direction in the indicated orientation unless they spend
+an extra space of movement to resist this effect. Movement triggered by this effect
+does not trigger this effect. You cannot be targeted by enemies in this aura
+unless they are orthogonally adjacent to you.  
+","Increase the size of the Aura by half your REA  
+","Ranged attacks targeting you from 3 or more spaces away are at **+1 Bane**
+while you are in this Stance  
+",
+5,Kineticism,Relay,Passive,,"Effect: Allies may bounce abilities off of your space as if they were originating
+from you. You must be in range of their ability and they must have
+an unobstructed path to you.  
+","Abilities bounced off of you may ignore Cover  
+","When an ability is bounced off of you you may move 1 before the attack.
+Use your new position to determine whether the target is in range.  
+",
+6,Kineticism,Newtonian Mechanics,Passive,,"Effect: Whenever you target a creature or area with an ability using an action,
+you may move yourself **1**$^a$ spaces further away from that creature
+(or from the closest space in the area).  
+","Increase the distance you move by half your REA  
+","You may move the target 1 as well in the opposite direction you move, |
+after the ability resolves (in addition to any movement the ability applies normally)  
+",

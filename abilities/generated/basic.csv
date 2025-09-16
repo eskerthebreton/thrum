@@ -1,0 +1,32 @@
+,Art,Name,Type,Tags,Description,Upgrade a,Upgrade b,Upgrade c
+0,Basic,Basic Attack,Action,"Physical Attack, Ranged","Range: 3
+Target: One enemy
+Effect: Roll an attack using your highest Combat Art modifier  
+Success: Deal **2 Fatigue**  
+",,,
+1,Basic,Dash,Action,,"Effect: Move a number of spaces up to your speed  
+",,,
+2,Basic,Recover,Action,,"Target: Self
+Effect: Reduce current **Fatigue** or **Stress** by 1 or end one **Status**  
+",,,
+3,Basic,Resuscitate,Action,,"Range: 1
+Target: One ally who is **Incapacitated**
+Effect: The target is no longer **Incapacitated**, their **Fatigue** and
+**Stress** are halved (round down), and they clear any negative **statuses**
+",,,
+4,Basic,Brace,Stance,,"Effect: Gain **+1 Boon** on **Resilience** rolls  
+",,,
+5,Basic,Dodge,Stance,,"Effect: Gain **+1 Boon** on **Evasion** rolls  
+",,,
+6,Basic,Concentrate,Stance,,"Effect: Gain **+1 Boon** on **Resolve** rolls  
+",,,
+7,Basic,Assist,Stance,,"Range: 1
+Trigger: An Ally targets an Enemy within range
+Effect: You may impose **+1 Bane** on the Enemy's defensive roll.
+If you do, end this stance.  
+",,,
+8,Basic,Protect,Stance,,"Range: 1
+Trigger: An Ally within range is targeted by an enemy
+Effect: You may grant the Ally +1 Boon on their Defensive roll.
+If you do, end this stance.  
+",,,
