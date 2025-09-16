@@ -1,0 +1,27 @@
+name: Puppet
+art: Mesmerism
+index: 3
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Range: 4  
+  Target: One character in range. If the target is an ally the attack automatically Succeeds.
+effects:
+  - type: Success
+    text: |
+      The target makes a **Basic Attack** against a valid target, resolved using your Mesmerism.  
+  - type: Overexert
+    text: |
+      You may direct the target to use a different action you have access to
+      instead of a **Basic Attack**  
+  - type: Critical
+    text: |
+      If the target is an enemy, deal **2**$^a$ **Stress**  
+upgrades:
+  a: |
+    Add half your REA to the additional Stress you deal on a Critical against the second target  
+  b: |
+    On a Critical against the first target, you may use the Overexert effect
+    without taking Stress. If you do, you do not get this ability's normal
+    Critical benefit against the second target  

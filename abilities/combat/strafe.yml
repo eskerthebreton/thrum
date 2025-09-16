@@ -1,0 +1,14 @@
+name: Strafe
+art: Archery
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      You may take an action during your Move instead of afterwards, provided each
+      square moved during your turn is in the same direction. If you make an attack
+      your remaining Movement may not take you further from the target than you were
+      when you made the attack.
+upgrades: {}

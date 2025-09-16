@@ -1,0 +1,23 @@
+name: Ameliorate
+art: Animism
+index: 1
+type: Action
+tags: []
+parameters:
+  Range: "**1**$^a$"
+  Target: One Ally or Self
+effects:
+  - type: Effect
+    text: |
+      Choose 1: Reduce the target's **Fatigue** by 1,
+      reduce the target's **Stress** by 1, or
+      reduce the stacks of a Status by 2
+  - type: Overexert
+    text: |
+      Choose 2 instead, or choose the same one twice  
+upgrades:
+  a: |
+    Increase the Range by half your REA  
+  b: |
+    When you use this ability (in either its normal or Overexert modes)
+    you may choose an additional option not already selected  

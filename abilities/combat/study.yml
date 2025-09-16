@@ -1,0 +1,23 @@
+name: Study
+art: Ninjutsu
+index: 5
+type: Stance
+tags: []
+parameters:
+  Range: 3  
+  Target: One enemy
+effects:
+  - type: Effect
+    text: |
+      The target gains **+1 Mark**, you become **Hidden**, and gain **Aura** **1**$^b$
+  - type: Trigger
+    text: |
+      A enemy with Mark enters a square in the Aura  
+  - type: Effect
+    text: |
+      The triggering enemy immediately gains +**1**$^a$ **Mark**  
+upgrades:
+  a: |
+    Add half your FIN to the number of stacks of Mark applied by the Triggered Effect  
+  b: |
+    Increase the size of the Aura by half your REA  

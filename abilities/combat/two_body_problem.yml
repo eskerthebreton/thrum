@@ -1,0 +1,27 @@
+name: Two Body Problem
+art: Kineticism
+index: 1
+type: Action
+tags:
+  - Physical Attack
+parameters:
+  Range: 4  
+  Target: "One character in range and a second character within 4\nwho shares a row or column with the first target"
+effects:
+  - type: Effect
+    text: |
+      Propel one or both targets closer to each other along the line until
+      they are adjacent or until they collide with another character or
+      terrain +2 or more above their starting position
+  - type: Succeed
+    text: |
+      You may deal up to **2**$^a$ **Fatigue** split however you wish between
+      the targets and any other character they collided with
+  - type: Critical
+    text: |
+      You may cause one$^b$ of the targets to become **Dazed**  
+upgrades:
+  a: |
+    Add half your POW to the Fatigue you deal on a Success  
+  b: |
+    You may apply **Dazed** to one target on a Success or both targets on a Critical  

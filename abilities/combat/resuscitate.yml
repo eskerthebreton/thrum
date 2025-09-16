@@ -1,0 +1,14 @@
+name: Resuscitate
+art: Basic
+index: 4
+type: Action
+tags: []
+parameters:
+  Range: 1
+  Target: One ally who is **Incapacitated**
+effects:
+  - type: Effect
+    text: |
+      The target is no longer **Incapacitated**, their **Fatigue** and
+      **Stress** are halved (round down), and they clear any negative **statuses**
+upgrades: {}

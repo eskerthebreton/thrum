@@ -1,0 +1,18 @@
+name: Relay
+art: Kineticism
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Allies may bounce abilities off of your space as if they were originating
+      from you. You must be in range of their ability and they must have
+      an unobstructed path to you.  
+upgrades:
+  a: |
+    Abilities bounced off of you may ignore Cover  
+  b: |
+    When an ability is bounced off of you you may move 1 before the attack.
+    Use your new position to determine whether the target is in range.  

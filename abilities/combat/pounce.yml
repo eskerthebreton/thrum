@@ -1,0 +1,23 @@
+name: Pounce
+art: Brawling
+index: 5
+type: Stance
+tags: []
+parameters:
+  Range: 3
+  Trigger: An enemy within range targets one of your allies with an attack
+effects:
+  - type: Effect
+    text: |
+      You may move up to half your speed to any space adjacent to the triggering enemy and
+      end this stance. If the attack does not target an Area, the target may redirect the
+      triggering ability from the ally to you (this does not count as a new instance of
+      targeting for the purpose of this or other triggered effects). If the attack targets
+      multiple characters, only one of the targets is replaced. If the attack targets an
+      Area or the attacker chooses not to retarget to you, they gain **+1 Weakened**.
+upgrades:
+  a: |
+    You may deal **Fatigue** to the triggering enemy equal to half your POW
+  b: |
+    Instead of moving normally as part of the triggered effect, you may **Teleport**
+    a number of spaces equal to 2 + half your REA

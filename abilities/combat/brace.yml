@@ -1,0 +1,11 @@
+name: Brace
+art: Basic
+index: 5
+type: Stance
+tags: []
+parameters: {}
+effects:  
+  - type: Effect
+    text: |
+      Gain **+1 Boon** on **Resilience** rolls  
+upgrades: {}

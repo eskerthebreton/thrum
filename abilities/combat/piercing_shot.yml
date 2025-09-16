@@ -1,0 +1,24 @@
+name: Piercing Shot
+art: Archery
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Ranged
+  - Finisher
+parameters:
+  Range: 6  
+  Target: One enemy  
+  Special: "Targeting and effects from this ability do not trigger any\nTriggered Effects granted by enemy abilities"
+effects:
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue**  
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Fatigue**
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical  
+  b: |
+    On a Critical, you may increase your Initiative for this combat by your REF  

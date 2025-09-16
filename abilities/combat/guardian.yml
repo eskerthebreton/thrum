@@ -1,0 +1,24 @@
+name: Guardian
+art: Brawling
+index: 4
+type: Stance
+tags: []
+parameters:
+  Trigger: "An enemy that has not triggered this stance on the current turn exits a square\nadjacent to you as part of their Move, Action or Stance effect"
+effects:
+  - type: Effect
+    text: |
+      They must spend 2 extra squares of movement or else return to the square they exited.
+      Make a Physical Attack against the triggering enemy.  
+  - type: Success
+    text: |
+      Deal **1**$^a$ **Fatigue**.  
+  - type: Critical
+    text: |
+      The target is **Immobilized** until the end of the turn.  
+upgrades:
+  a: |
+    Add half your POW to the Fatigue you deal on a Success  
+  b: |
+    Enemy movement may trigger the effect when they exit a square within 2
+    instead of needing to be adjacent, provided they are moving further away from you  

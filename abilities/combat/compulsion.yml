@@ -1,0 +1,29 @@
+name: Compulsion
+art: Mesmerism
+index: 1
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Range: 4  
+  Target: "One character. If the target is an ally they must be willing\nand the attack automatically Succeeds"
+effects:
+  - type: Effect
+    text: |
+      Force the target to move up to half their Speed to any other space
+      of your choice within range  
+  - type: Success
+    text: |
+      Force the target to move up to their full Speed instead  
+  - type: Critical
+    text: If the target is an Enemy, deal $**2**^a$ **Stress**  
+  - type: Overexert
+    text: |
+      If the attack Succeeds, the target is **Immobilized** until the end of their turn.
+      You may choose to use **Overexert** after the attack resolves.  
+upgrades:
+  a: |
+    Add half your REA to the additional Stress you deal on a Critical  
+  b: |
+    On a Critical, you may use the Overexert effect without taking Stress
+    in lieu of the normal Critical effect  

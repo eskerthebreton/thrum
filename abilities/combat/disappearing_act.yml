@@ -1,0 +1,17 @@
+name: Disappearing Act
+art: Mesmerism
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Whenever you successfully defend against an enemy attack, become **Hidden**.
+upgrades:
+  a: |
+    In addition, gain **+1 Boon** on your next attack  
+  b: |
+    After applying this effect the next attack against you before the start
+    of your turn has **+1 Bane**, and Hidden does not end before the start
+    of your turn unless you are Successfully attacked by an adjacent enemy

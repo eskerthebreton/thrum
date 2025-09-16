@@ -1,0 +1,19 @@
+name: Flaming Arrow
+art: Archery
+index: 3
+type: Action
+tags:
+  - Physical Attack
+  - Ranged
+parameters:
+  Range: 6  
+  Target: One enemy
+effects:
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue** and inflict **1**$^a$ **Burning**  
+upgrades:
+  a: |
+    Add half your FIN to the number of Burning stacks you deal on a Success  
+  b: |
+    On a Critical, deal additional Fatigue equal to half your POW  

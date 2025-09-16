@@ -1,0 +1,29 @@
+name: Unlimited Power
+art: Elementalism
+index: 3
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Range: Self  
+  Target: One adjacent enemy
+effects:
+  - type: Success
+    text: |
+      Deal **2**$^a$ **Stress**
+  - type: Effect
+    text: |
+      The target gains +**1**$^b$ Shocked
+  - type: Overexert
+    text: |
+      The target becomes **Aura** **1**$^c$ and on a Success you may repeat
+      this action immediately, except the targets are resolved as if you were
+      the previous target, and you cannot target a character that has been
+      targeted by this ability this turn.
+upgrades:
+  a: |
+    Increase the Stress you deal on a Success by half your REA  
+  b: |
+    Increase the Shocked stacks by half your FIN  
+  c: |
+    Increase the Overexert Aura size by 1  

@@ -1,0 +1,20 @@
+name: Parry and Riposte
+art: Dueling
+index: 4
+type: Stance
+tags: []
+parameters:
+  Range: 1  
+  Trigger: An enemy in range targets you with an attack.
+effects:
+  - type: Effect
+    text: |
+      You may add your Dueling Training Level to your defense roll.
+      If you do, end this stance. If your contesting roll is a **Critical**,
+      make a Physical Attack with Finisher against the triggering enemy,
+      dealing **[1] Fatigue** on a Success.  
+upgrades:  
+  a: |
+    Add half your POW to the damage you deal on a Success  
+  b: |
+    Increase the bonus to your defense roll by an amount equal to half your FIN  

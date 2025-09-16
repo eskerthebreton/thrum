@@ -1,0 +1,21 @@
+name: Addle
+art: Mesmerism
+index: 2
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Range: 4  
+  Target: One enemy
+effects:
+  - type: Success
+    text: |
+      The target is **Disoriented** and gains +**1**$^b$ **Slowed**
+  - type: Overexert
+    text: |
+      Deal **2**$^a$ **Stress**  
+upgrades:
+  a: |
+    Add half your REA to the additional Stress you deal when using Overexert  
+  b: |
+    Add half your FIN to the stacks of Slowed  

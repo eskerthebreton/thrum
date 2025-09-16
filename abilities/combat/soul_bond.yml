@@ -1,0 +1,18 @@
+name: Soul Bond
+art: Animism
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When your minion would disappear as a result of taking Fatigue or Stress,
+      you may prevent it from disappearing by taking **Stress**
+upgrades:
+  a: |
+    If an ally adjacent to your minion would take **Fatigue** or **Stress**,
+    you may reduce the amount they take by 1 by taking **Stress**  
+  b: |
+    When you would take **Fatigue** or **Stress** while you have a minion in play,
+    you may reduce the amount you take by 1 by removing your minion from play

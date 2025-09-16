@@ -1,0 +1,27 @@
+name: Bull Rush
+art: Brawling
+index: 2
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Range: 3
+  Target: One character
+effects:
+  - type: Effect
+    text: |
+      Move to any open space adjacent to the target which is within half your speed$^b$
+      of your starting position
+  - type: Succeed
+    text: |
+      If the target is an enemy, they take **2 Fatigue**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^(a)$ **Fatigue** and you may move the target
+      to any open space adjacent to their starting position
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical
+  b: |
+    Add half your FIN to the distance you can move before the attack

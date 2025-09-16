@@ -1,0 +1,11 @@
+name: Long Reach
+art: Dueling
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Your abilities listed as having Range 1 have Range 2 instead
+upgrades: {}

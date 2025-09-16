@@ -1,0 +1,30 @@
+name: Poison Dagger
+art: Ninjutsu
+index: 2
+type: Action
+tags:
+  - Physical Attack
+parameters:
+  Range: 1  
+  Target: One enemy
+effects:
+  - type: Effect
+    text: |
+      The target is **Scouted** and +**1**$^a$ **Hamstrung**
+  - type: Succeed
+    text: |
+      The target takes **1 Fatigue** and **1**$^a$ **Bleeding**  
+  - type: Critical
+    text: |
+      Deal an additional **1**$^b$ **Fatigue**
+  - type: Effect
+    text: |
+      You may move up to half your speed (round up) (plus **0**$^c$ additional spaces)
+      after this ability resolves, hit or miss.  
+upgrades:
+  a: |
+    Add half your FIN to the number of stacks of Hamstrung and Bleeding  
+  b: |
+    Add half your POW to the additional Fatigue you deal on a Critical  
+  c: |
+    Add half your FIN to the maximum spaces you may move after the attack  

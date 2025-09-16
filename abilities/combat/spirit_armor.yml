@@ -1,0 +1,21 @@
+name: Spirit Armor
+art: Animism
+index: 2
+type: Action
+tags:
+  - Buff
+parameters:
+  Range: 2  
+  Target: One Ally or Self
+effects:
+  - type: Effect
+    text: |
+      The target may add your Animism Training level to a Defense roll,
+      reducing any **Fatigue** or **Stress** taken by 1. Alternatively if they
+      fail a Panic or Incapacity Roll they may reroll. Either way, end this Buff
+      after it is used unless you take **Stress** to maintain it  
+upgrades:
+  a: |
+    The bonus granted to the roll increases by half your FOC  
+  b: |
+    The target may add your Animism Training to their reroll  

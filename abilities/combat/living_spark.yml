@@ -1,0 +1,18 @@
+name: Living Spark
+art: Elementalism
+index: 6
+type: Passive
+tags: []
+parameters:
+  Range: "**2**$^a$"
+effects:
+  - type: Effect
+    text: |
+      Whenever a character in Range loses the **Burning** condition
+      without using the **Recover** action, you may apply +**1**$^b$ **Burning**
+      to another character within half this ability's Range (rounded up) of them.  
+upgrades:
+  a: |
+    Add half your REA to the Range  
+  b: |
+    Increase the stacks of Burning on the new target by half your FIN  

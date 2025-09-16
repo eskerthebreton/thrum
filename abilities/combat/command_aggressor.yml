@@ -1,0 +1,27 @@
+name: Command Aggressor
+art: Animism
+index: 3
+type: Action
+tags:
+  - Physical Attack
+parameters:
+  Range: 4
+effects:
+  - type: Effect
+    text: |
+      Position a Minion. You may have your minion make a Physical Attack
+      against an enemy adjacent to it (resolve using your Animism)
+  - type: Effect
+    text: |
+      Push the target **1**$^b$ spaces  
+  - type: Success
+    text: |
+      Deal **2 Fatigue**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Fatigue**   
+upgrades:
+  a: |
+    Increase the additional Fatigue on a Critical by half your POW  
+  b: |
+    Increase the distance pushed by half your REA  

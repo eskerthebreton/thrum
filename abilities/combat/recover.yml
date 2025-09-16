@@ -1,0 +1,12 @@
+name: Recover
+art: Basic
+index: 3
+type: Action
+tags: []
+parameters:
+  Target: Self
+effects:
+  - type: Effect
+    text: |
+      Reduce current **Fatigue** or **Stress** by 1 or end one **Status**  
+upgrades: {}

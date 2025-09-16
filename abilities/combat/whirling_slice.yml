@@ -1,0 +1,22 @@
+name: Whirling Slice
+art: Dueling
+index: 3
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Range: 1  
+  Target: "Up to **2**$^b$ enemies within range"
+effects:
+  - type: Succeed
+    text: |
+      Deal **1**$^a$ **Fatigue**  
+  - type: Critical
+    text: |
+      You may move the target 1 space to an unoccupied space within range  
+upgrades:
+  a: |
+    Add half your POW to the damage you deal on a Success  
+  b: |
+    The maximum number of targets increases by half your REA  

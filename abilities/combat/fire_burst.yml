@@ -1,0 +1,27 @@
+name: Fire Burst
+art: Elementalism
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Ranged  
+parameters:
+  Range: 4  
+  Target: "Area **2**$^a$"
+effects:
+  - type: Success
+    text: |
+      Characters in the area take **1 Fatigue**  
+  - type: Critical
+    text: |
+      Deal **1** additional Fatigue and the target gains +**1**$^b$ **Burning**  
+  - type: Overexert
+    text: |
+      Choose one: Increase the Area by 2, treat normal Successes as Criticals,
+      or double the Critical effect  
+upgrades:
+  a: |
+    Increase the area by half your REA  
+  b: |
+    Add +1 Burning on a Success effect, and increase the stacks on a Critical
+    by half your POW  

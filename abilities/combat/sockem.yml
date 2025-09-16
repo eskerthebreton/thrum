@@ -1,0 +1,28 @@
+name: Sockem
+art: Brawling
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Range: 1
+  Target: One enemy
+effects:
+  - type: Effect
+    text: |
+      Choose one: move the target **1**$^b$ in any direction, or target gains **1**$^c$ Slowed**
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Fatigue** and the target is **Stunned**
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical
+  b: |
+    Add half your REA to the distance you can move the target
+  c: |
+    When you add Slowed add additional stacks equal to half your FIN
+        

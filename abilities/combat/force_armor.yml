@@ -1,0 +1,21 @@
+name: Force Armor
+art: Infusion
+index: 4
+type: Stance
+tags: []
+parameters:
+  Trigger: You succeed on a Resilience roll against an enemy attack
+effects:
+  - type: Effect
+    text: |
+      Push the enemy up to **1**$^a$ spaces away from you (each space pushed must be
+      in the same direction and must increase the distance between you).
+      If you Critically Succeed, push them up to **2**$^a$ spaces instead.
+      The attack otherwise resolves as normal based on the rolls involved.  
+upgrades:
+  a: |
+    Increase the distance pushed on a Success by half your REA and the distance
+    pushed on a Critical by your full REA  
+  b: |
+    If you have not used the effect since your last turn, you may add half your
+    FOC to your Resilience roll  

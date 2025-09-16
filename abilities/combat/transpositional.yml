@@ -1,0 +1,18 @@
+name: Transpositional
+art: Ninjutsu
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      During your move you may spend 1 space of movement to swap places
+      with an ally in Range **1**$^b$
+upgrades:
+  a: |
+    You may use this effect to swap with an enemy, and when you swap
+    with an ally it does not cost movement.  
+  b: |
+    You may exchange places with an ally within a Range up to half your
+    REA as a Teleport using only 1 space of movement  

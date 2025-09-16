@@ -1,0 +1,24 @@
+name: Homing Beacon
+art: Infusion
+index: 3
+type: Action
+tags:
+  - Terrain Effect
+parameters:
+  Range: 0
+  Target: "Area **3**$^a$"
+effects:
+  - type: Effect
+    text: |
+      While the effect is present, you may spend 4 spaces of movement or your Action
+      to teleport to any space in the area from anywhere on the battlefield.
+      Your allies may teleport in this way as well (using their own movement or action)
+      if they are adjacent to you, or may teleport from the area to any space adjacent to you.
+upgrades:
+  a: |
+    Increase the Area by half your REA  
+  b: |
+    Teleporting costs only 2 spaces of movement  
+  c: |
+    The area is no longer considered a Terrain Effect for the purpose of limits
+    on simultaneous active Terrain Effects  

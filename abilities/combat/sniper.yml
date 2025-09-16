@@ -1,0 +1,18 @@
+name: Sniper
+art: Archery
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      If you do not move during your turn your Ranged Attacks until the start of your
+      next turn have **1**$^a$ **Boons**. Subtract 1 Boon for each enemy in range 2 of you
+      when making the attack (this cannot cause you to lose more Boons than you gained
+      from this ability).  
+upgrades:
+  a: |
+    Increase the number of Boons by half your FIN  
+  b: |
+    You only subtract Boons for nearby enemies in excess of half your FOC  

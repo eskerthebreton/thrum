@@ -1,0 +1,18 @@
+name: Magnetic Armor
+art: Infusion
+index: 5
+type: Stance
+tags: []
+parameters:
+  Range: 1  
+  Trigger: "An enemy attempts to exit a space in range for the first time on their turn,\n or an enemy ability would move an ally out of an adjacent square."
+effects:
+  - type: Effect
+    text: |
+      The enemy attempting to move is **1**$^a$ **Slowed** and does not move, or the ally
+      is **Immobilized** until the end of the current turn.  
+upgrades:
+  a: |
+    Increase the stacks of Slowed by half your FIN  
+  b: |
+    Deal Fatigue to the triggering enemy equal to half your POW  

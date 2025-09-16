@@ -1,0 +1,11 @@
+name: Dodge
+art: Basic
+index: 6
+type: Stance
+tags: []
+parameters: {}
+effects:  
+  - type: Effect
+    text: |
+      Gain **+1 Boon** on **Evasion** rolls  
+upgrades: {}

@@ -1,0 +1,19 @@
+name: Transmuter
+art: Infusion
+index: 6
+type: Passive
+tags: []
+parameters:  
+  Range: "**1**$^a$"
+effects:
+  - type: Effect
+    text: |
+      Whenever you or one of your allies afflicts an enemy within Range with one of the
+      following statuses: **Burning**, **Slowed**, **Blinded**, **Shocked**, 
+      you may replace that application of the status with a different status from the same list.  
+upgrades:
+  a: |
+    Increase the range by half your REA  
+  b: |
+    If the target was already suffering from the chosen status, you may deal **1 Stress**
+    to them in addition to the other effects  

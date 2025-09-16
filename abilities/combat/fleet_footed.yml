@@ -1,0 +1,15 @@
+name: Fleet Footed
+art: Ninjutsu
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Increase your Speed by **1**$^a$
+upgrades:
+  a: |
+    Increase your Speed by an additional 1  
+  b: |
+    If you move at least 4 on your turn, gain +**1** **Boon** on your next attack  

@@ -1,0 +1,13 @@
+name: Indefatigable
+art: Brawling
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Increase your **Maximum Fatigue Tolerance** by **1**$^a$  
+upgrades:
+  a: |
+    Further increase your Maximum Fatigue Tolerance by half your END   

@@ -1,0 +1,22 @@
+name: Vector Field
+art: Kineticism
+index: 2
+type: Action
+tags:
+  - Terrain Effect
+parameters:
+  Range: 4  
+  Target: "Area **2**$^a$"
+effects:
+  - type: Effect
+    text: |
+      Indicate a side or corner of the area. Whenever a character moves
+      into any space in the area they are pushed one space toward
+      the indicated side or corner unless they spend **1**$^b$ additional
+      movement to resist this effect. Movement triggered by this effect
+      does not trigger this effect.  
+upgrades:
+  a: |
+    Add half your REA to the size of the Area  
+  b: |
+    Add 1 to the additional movement cost  

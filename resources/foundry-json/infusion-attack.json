@@ -1,0 +1,49 @@
+{
+  "name": "Infusion Attack",
+  "type": "item",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "attributes": {
+      "normal_roll": {
+        "value": "2d6+@combat_arts.infusion",
+        "label": "Normal Roll",
+        "dtype": "Formula",
+        "group": ""
+      },
+      "boon_roll": {
+        "value": "3d6kh2+@combat_arts.infusion",
+        "label": "Boon Roll",
+        "dtype": "Formula",
+        "group": ""
+      },
+      "bane_roll": {
+        "value": "3d6kl2+@combat_arts.infusion",
+        "label": "Bane Roll",
+        "dtype": "Formula",
+        "group": ""
+      }
+    },
+    "groups": {}
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "the-thrum-remains-playtest",
+      "system": "worldbuilding",
+      "coreVersion": "12.343",
+      "systemVersion": "0.8.2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "worldbuilding",
+    "systemVersion": "0.8.2",
+    "createdTime": 1750480752444,
+    "modifiedTime": 1750480752444,
+    "lastModifiedBy": "31Q8HCp97p5zEfk6"
+  }
+}

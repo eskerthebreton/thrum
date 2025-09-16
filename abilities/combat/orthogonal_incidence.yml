@@ -1,0 +1,21 @@
+name: Orthogonal Incidence
+art: Kineticism
+index: 4
+type: Stance
+tags: []
+parameters:
+  Trigger: "You are targeted with an ability that inflicts Fatigue or Stress\nby an enemy sharing a row or column with your position and at least 3 spaces away"
+effects:
+  - type: Effect
+    text: |
+      Add your Kineticism Training Level to your Defense roll and end this stance
+  - type: Critical
+    text: |
+      Apply the effect to a new target sharing a row or column with you
+      which is at a right angle to the row or column you share with the
+      triggering enemy (but reduce the Fatigue or Stress dealt by 1)$^b$
+upgrades:
+  a: |
+    Gain an additional bonus to the Defense roll equal to half your REA  
+  b: |
+    The target takes the full impact of the effect on a Critical  

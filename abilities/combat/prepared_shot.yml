@@ -1,0 +1,32 @@
+name: Prepared Shot
+art: Archery
+index: 5
+type: Stance
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Choose one: Gain Aura 6, or Gain Aura 4 and apply **1**$^b$ **Mark** to an enemy within 6
+  - type: Trigger
+    text: |
+      An enemy moves into the Aura
+  - type: Effect
+    text: |
+      You may make a Ranged Physical Attack against the triggering enemy,
+      with **1**$^c$ **Boon** if the target is **Marked**. 
+      If you do, end this stance and you cannot take an action during your next turn
+      (you can still move and take a new stance).
+  - type: Succeed
+    text: |
+      Deal **Fatigue** equal to 2 plus the stacks of Mark on the target.
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Fatigue**  
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical  
+  b: |
+    Add half your FIN to the stacks of Mark you apply  
+  c: |
+    Add half your FIN to the number of Boons you gain against Marked targets  

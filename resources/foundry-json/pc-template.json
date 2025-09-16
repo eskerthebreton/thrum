@@ -1,0 +1,552 @@
+{
+  "name": "PC Template",
+  "type": "character",
+  "folder": null,
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "",
+    "fatigue": {
+      "value": 0,
+      "min": 0,
+      "max": 10
+    },
+    "stress": {
+      "value": 0,
+      "min": 0,
+      "max": 10
+    },
+    "attributes": {
+      "stats": {
+        "foc": {
+          "value": 0,
+          "label": "Focus",
+          "dtype": "Number",
+          "group": "stats"
+        },
+        "ref": {
+          "value": 2,
+          "label": "Reflex",
+          "dtype": "Number",
+          "group": "stats"
+        },
+        "end": {
+          "value": 0,
+          "label": "Endurance",
+          "dtype": "Number",
+          "group": "stats"
+        },
+        "mig": {
+          "value": 0,
+          "label": "Might",
+          "dtype": "Number",
+          "group": "stats"
+        },
+        "fin": {
+          "value": 0,
+          "label": "Finesse",
+          "dtype": "Number",
+          "group": "stats"
+        },
+        "rea": {
+          "value": 0,
+          "label": "Reasoning",
+          "dtype": "Number",
+          "group": "stats"
+        }
+      },
+      "defense": {
+        "resilience": {
+          "value": 0,
+          "label": "Resilience",
+          "dtype": "Number",
+          "group": "defense"
+        },
+        "evasion": {
+          "value": 2,
+          "label": "Evasion",
+          "dtype": "Number",
+          "group": "defense"
+        },
+        "resolve": {
+          "value": 0,
+          "label": "Resolve",
+          "dtype": "Number",
+          "group": "defense"
+        }
+      },
+      "max_tolerances": {
+        "max_fatigue_tol": {
+          "value": 2,
+          "label": "Max Fatigue Tolerance",
+          "dtype": "Number",
+          "group": "max_tolerances"
+        },
+        "max_stress_tol": {
+          "value": 2,
+          "label": "Max Stress Tolerance",
+          "dtype": "Number",
+          "group": "max_tolerances"
+        }
+      },
+      "combat_arts": {
+        "brawling": {
+          "value": 2,
+          "label": "Brawling",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "dueling": {
+          "value": 0,
+          "label": "Dueling",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "infusion": {
+          "value": 0,
+          "label": "Infusion",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "archery": {
+          "value": 0,
+          "label": "Archery",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "ninjutsu": {
+          "value": 0,
+          "label": "Ninjutsu",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "kineticism": {
+          "value": 0,
+          "label": "Kineticism",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "animism": {
+          "value": 0,
+          "label": "Animism",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "mesmerism": {
+          "value": 0,
+          "label": "Mesmerism",
+          "dtype": "Number",
+          "group": "combat_arts"
+        },
+        "elementalism": {
+          "value": 0,
+          "label": "Elementalism",
+          "dtype": "Number",
+          "group": "combat_arts"
+        }
+      },
+      "utility_arts": {
+        "struction": {
+          "value": 0,
+          "label": "Struction",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "athletics": {
+          "value": 0,
+          "label": "Athletics",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "craft": {
+          "value": 0,
+          "label": "Craft",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "research": {
+          "value": 0,
+          "label": "Research",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "stealth": {
+          "value": 0,
+          "label": "Stealth",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "problem_solving": {
+          "value": 0,
+          "label": "Problem Solving",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "leadership": {
+          "value": 0,
+          "label": "Leadership",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "influence": {
+          "value": 0,
+          "label": "Influence",
+          "dtype": "Number",
+          "group": "utility_arts"
+        },
+        "reconnaissance": {
+          "value": 0,
+          "label": "Reconnaissance",
+          "dtype": "Number",
+          "group": "utility_arts"
+        }
+      },
+      "init": {
+        "value": 2,
+        "label": "Initiative",
+        "dtype": "Number",
+        "group": ""
+      },
+      "speed": {
+        "value": 4,
+        "label": "Speed",
+        "dtype": "Number",
+        "group": ""
+      },
+      "max_effort": {
+        "value": 4,
+        "label": "Max Effort",
+        "dtype": "Number",
+        "group": ""
+      },
+      "resources": {
+        "fatigue": {
+          "min": 0,
+          "value": 0,
+          "max": 8,
+          "label": "Fatigue Load",
+          "dtype": "Resource",
+          "group": "resources"
+        },
+        "stress": {
+          "min": 0,
+          "value": 0,
+          "max": 8,
+          "label": "Stress Load",
+          "dtype": "Resource",
+          "group": "resources"
+        },
+        "fatigue_tol": {
+          "min": 0,
+          "value": 2,
+          "max": 2,
+          "label": "Fatigue Tolerance",
+          "dtype": "Resource",
+          "group": "resources"
+        },
+        "stress_tol": {
+          "min": 0,
+          "value": 2,
+          "max": 2,
+          "label": "",
+          "dtype": "Resource",
+          "group": "resources"
+        },
+        "effort": {
+          "min": 4,
+          "value": 4,
+          "max": 4,
+          "label": "Effort",
+          "dtype": "Resource",
+          "group": "resources"
+        }
+      }
+    },
+    "groups": {
+      "stats": {
+        "key": "stats",
+        "label": "Attributes",
+        "dtype": "Number"
+      },
+      "defense": {
+        "key": "defense",
+        "label": "Defenses",
+        "dtype": "Number"
+      },
+      "max_tolerances": {
+        "key": "max_tolerances",
+        "label": "Max Tolerances",
+        "dtype": "Number"
+      },
+      "combat_arts": {
+        "key": "combat_arts",
+        "label": "Combat Arts Modifiers",
+        "dtype": "Number"
+      },
+      "utility_arts": {
+        "key": "utility_arts",
+        "label": "Utility Arts Training",
+        "dtype": "Number"
+      },
+      "resources": {
+        "key": "resources",
+        "label": "",
+        "dtype": "Resource"
+      }
+    },
+    "health": {
+      "value": null,
+      "max": null
+    },
+    "power": {
+      "value": null,
+      "max": null
+    }
+  },
+  "prototypeToken": {
+    "name": "Daniel's Character",
+    "displayName": 50,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.resources.fatigue"
+    },
+    "bar2": {
+      "attribute": "attributes.resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": true
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": true
+        }
+      },
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "order": 0,
+            "id": "bar1",
+            "attribute": "attributes.resources.fatigue",
+            "mincolor": "#ffdd00",
+            "maxcolor": "#ff0000",
+            "position": "top-inner",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": true,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "hideHud": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar2": {
+            "order": 2,
+            "id": "bar2",
+            "attribute": "attributes.resources.stress",
+            "mincolor": "#9797f2",
+            "maxcolor": "#eb2bee",
+            "position": "bottom-inner",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": true,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "hideHud": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar3": {
+            "order": 3,
+            "id": "bar3",
+            "attribute": "attributes.resources.fatigue_tol",
+            "mincolor": "#f31b1b",
+            "maxcolor": "#f1b309",
+            "position": "top-inner",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "hideHud": false,
+            "indentLeft": null,
+            "indentRight": 75,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar4": {
+            "order": 1,
+            "id": "bar4",
+            "attribute": "attributes.resources.stress_tol",
+            "mincolor": "#7d3df5",
+            "maxcolor": "#2f7cf9",
+            "position": "bottom-inner",
+            "otherVisibility": 50,
+            "ownerVisibility": 50,
+            "gmVisibility": -1,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "hideHud": false,
+            "indentLeft": null,
+            "indentRight": 75,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          }
+        }
+      }
+    },
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sheetClass": "worldbuilding.SwpActorSheet"
+    },
+    "exportSource": {
+      "world": "the-thrum-remains-playtest",
+      "system": "worldbuilding",
+      "coreVersion": "12.343",
+      "systemVersion": "0.8.2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "worldbuilding",
+    "systemVersion": "0.8.2",
+    "createdTime": 1750475100220,
+    "modifiedTime": 1750480723622,
+    "lastModifiedBy": "31Q8HCp97p5zEfk6"
+  }
+}

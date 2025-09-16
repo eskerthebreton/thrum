@@ -1,0 +1,11 @@
+name: Dash
+art: Basic
+index: 2
+type: Action
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Move a number of spaces up to your speed  
+upgrades: {}

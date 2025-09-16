@@ -1,0 +1,20 @@
+name: Bolster
+art: Animism
+index: 5
+type: Stance
+tags: []
+parameters:
+  Range: 2
+effects:
+  - type: Effect
+    text: |
+      When you take or renew this stance, Position a Minion.  
+  - type: Effect
+    text: |
+      The minion has **Aura** **1**$^a$. You and your allies have
+      +**1**$^b$ to all defensive rolls while in the aura.  
+upgrades:
+  a: |
+    Increase the size of the Aura by half your REA  
+  b: |
+    Increase the bonus to defensive rolls by half your FOC  

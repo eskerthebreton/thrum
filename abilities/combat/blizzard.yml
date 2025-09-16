@@ -1,0 +1,25 @@
+name: Blizzard
+art: Elementalism
+index: 2
+type: Action
+tags:
+  - Terrain Effect
+parameters:
+  Range: 4  
+  Target: "Area **2**$^a$"
+effects:
+  - type: Effect
+    text: |
+      The area is **Difficult Terrain**.
+  - type: Overexert
+    text: |
+      Whenever a character starts their turn in the area or enters it
+      for the first time on a turn, make a Physical Attack against them,
+      dealing **Fatigue** on a success. At the start of your turn
+      you may maintain this effect by paying the **Overexert** cost again.  
+upgrades:
+  a: |
+    Increase the area by half your REA  
+  b: |
+    You don't need to pay the Overexert cost to maintain the Overexert effect
+    provided your Stress Load does not exceed your Stress Tolerance  

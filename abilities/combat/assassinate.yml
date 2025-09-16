@@ -1,0 +1,30 @@
+name: Assassinate
+art: Ninjutsu
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Range: 3  
+  Target: One enemy  
+  Special: "You have **1**$^a$ **Boon** on the attack if the target is **Marked**"
+effects:
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue** plus additional Fatigue equal to the number of stacks
+      of **Mark** on the target. If the target becomes Incapacitated, clear all
+      stacks of **Mark** and become **Hidden**. Otherwise, reduce the target's
+      **Mark** by one.  
+  - type: Critical
+    text: |
+      If the target becomes Incapacitated on the same turn you use this ability,
+      apply **1**$^b$ **Mark** to another target in range. Otherwise, the target retains
+      all **Mark** instead of reducing it.  
+upgrades:
+  a: |
+    Add half your FIN to the number of Boons you gain against Marked targets  
+  b: |
+    Add half your REA to the number of stacks of Mark you apply to a new target
+    on a Critical against a target that becomes Incapacitated, and add **+1 Mark**
+    to the target when you get a Critical but do not Incapacitate the target  

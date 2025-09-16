@@ -1,0 +1,18 @@
+name: Basic Attack
+art: Basic
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Ranged
+parameters:
+  Range: 3  
+  Target: One enemy
+effects:
+  - type: Effect
+    text: |
+      Roll an attack using your highest Combat Art modifier  
+  - type: Success
+    text: |
+      Deal **2 Fatigue**  
+upgrades: {}

@@ -1,0 +1,25 @@
+name: Precision Slash
+art: Dueling
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Range: 1  
+  Target: One enemy
+effects:
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Fatigue**  
+  - type: Effect
+    text: |
+      The target gains **1**$^b$ **Bleed**  
+upgrades:
+    a: |
+      Add half your POW to Fatigue you deal on a Critical  
+    b: |
+      Increase the Bleed stacks by half your FIN  

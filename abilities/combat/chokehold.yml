@@ -1,0 +1,27 @@
+name: Chokehold
+art: Brawling
+index: 3
+type: Action
+tags:
+  - Physical Attack
+parameters:
+  Range: 1
+  Target: One character
+effects:
+  - type: Succeed
+    text: |
+      Target is **Immobilized** and **Weakened** until you are no longer in range
+      or you choose to release them at any time. You can only have up to **1**$^b$ targets
+      in this effect at a time. If you would exceed this number, you can choose which to release.
+      An affected target may use their Action to attempt to break this effect on their turn
+      by making a Physical Attack contested by your **Resilience**.
+      On a Critical Success they may take another action. You may drag immobilized targets at
+      a cost of +1 additional square per square moved.
+  - type: Critical
+    text: |
+      Deal **1**$^a$ **Fatigue**
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical
+  b: |
+    Add half your FIN to the number of targets you can affect at once

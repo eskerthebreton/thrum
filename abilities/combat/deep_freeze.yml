@@ -1,0 +1,17 @@
+name: Deep Freeze
+art: Elementalism
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Whenever an enemy enters any space in a Terrain Effect you created
+      for the first time on a turn, you may make a Mental Attack against them.
+      On a Success they gain +**1**$^a$ **Slowed**  
+upgrades:
+  a: |
+    Add half your FIN to the stacks of Slowed  
+  b: |
+    On a Critical, deal **Fatigue** equal to half your POW  

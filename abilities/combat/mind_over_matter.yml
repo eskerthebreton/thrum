@@ -1,0 +1,19 @@
+name: Mind Over Matter
+art: Mesmerism
+index: 4
+type: Stance
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      If you would take **Fatigue**, you may choose to reduce the Fatigue
+      you take by up to **[1]** and take the same amount of **Stress** instead.
+      If you do, end this stance unless you take an additional **[1] Stress**
+      for each previous time you have used this effect since your last turn  
+upgrades:
+    a: |
+      Increase the maximum amount of Fatigue you can convert to Stress by half your FOC  
+    b: |
+      Reduce the total amount of additional Stress required each time you
+      maintain this stance by 1  

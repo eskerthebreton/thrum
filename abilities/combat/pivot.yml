@@ -1,0 +1,20 @@
+name: Pivot
+art: Dueling
+index: 5
+type: Stance
+tags: []
+parameters:
+  Trigger: You or an adjacent character are targeted with an attack
+effects:
+  - type: Effect
+    text: |
+      End this stance and enter any **Basic Stance** of your choice.
+      If the stance has an effect that shares a trigger with this one,
+      you may carry it out immediately.
+upgrades:
+  a: |
+    If the Stance would normally end after triggering, you may
+    stay in it or enter a different Basic Stance instead  
+  b: |
+    If the Stance grants a Boon to your Defense Roll, gain an
+    additional Boon for the attack triggering this ability  

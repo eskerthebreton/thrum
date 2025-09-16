@@ -1,0 +1,16 @@
+name: Composed
+art: Mesmerism
+index: 5
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Increase your **Maximum Stress Tolerance** by **1**$^a$ and gain
+      a bonus on **Panic Rolls** of the same amount
+upgrades:
+  a: |
+    Add an additional 1 to both  
+  b: |
+    Apply the bonus to your **Resolve** rolls as well  

@@ -1,0 +1,18 @@
+name: Adrenaline
+art: Brawling
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you are dealt **Fatigue**, you may end or ignore
+      one **Status** of your choice affecting (or that would effect) you.
+      While you are **Exhausted** you have **+1**$^a$ **Boons** on **Panic Rolls**
+upgrades:  
+  a: |
+    Increase the number of Boons this ability grants to Panic Rolls by half your REA  
+  b: |
+    When you take Fatigue, you may choose to reduce your **Stress Load** by 1
+    instead of ending or ignoring a Status

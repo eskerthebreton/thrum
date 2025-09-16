@@ -1,0 +1,21 @@
+name: Channel Will
+art: Animism
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you take the **Basic Attack** or **Resuscitate** actions or
+      the **Assist** or **Protect** stances, you may use your **Minion**'s space
+      instead of your own for the purpose of determining whether a target is in Range.
+      You may also select targets for other abilities you have as if you were
+      in your Minion's space, but if they have a Range greater than **[1]**,
+      they are treated as if they had a Range of **[1]** instead (this does not
+      apply to basic actions and stances).  
+upgrades:
+  a: |
+    Increase the maximum Range of channeled non-Basic abilities by half your REA  
+  b: |
+    When you use a Basic Ability in this way, you may reduce your **Stress Load** by 1  

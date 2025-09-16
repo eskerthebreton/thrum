@@ -1,0 +1,27 @@
+name: Flashbang
+art: Ninjutsu
+index: 3
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Range: 3  
+  Target: "Area **2**$^c$"
+effects:
+  - type: Effect
+    text: |
+      Characters in the area gain +**1**$^b$ **Blinded**  
+  - type: Succeed
+    text: |
+      Deal **2 Stress**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ **Stress**, and
+      characters in the area are **Disoriented**.  
+upgrades:
+  a: |
+    Add half your REA to the additional Stress you deal on a Critical  
+  b: |
+    Add half your FIN to the stacks of Blinded  
+  c: |
+    You may increase the area by up to half your REA (you can set the area on each use)  

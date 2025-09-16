@@ -1,0 +1,26 @@
+name: The Prestige
+art: Mesmerism
+index: 4
+type: Stance
+tags: []
+parameters:
+  Range: "**1**$^b$"
+  Trigger: You or an ally in Range are targeted by an enemy attack
+effects:
+  - type: Effect
+    text: |
+      If there is another character in Range that isn't the attacker, you may
+      swap places with them, causing the attack to target them instead of you
+      or vice versa. This might cause an ability that can normally only target
+      an enemy of the attacker to target their ally instead. If the new target
+      is an enemy, make a Mental Attack against them. If they Succeed this effect
+      fails but you may contest the triggering attack normally. After this effect
+      triggers, end this stance unless you take **Stress** to maintain it.  
+upgrades:
+  a: |
+    You may use the Effect even without an adjacent character, moving
+    1 space before the attack resolves. If this results in you being
+    out of range, the attack automatically Misses (you still take any
+    effects that don't require a Success)  
+  b: |
+    Increase the Range to 2  

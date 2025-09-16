@@ -1,0 +1,11 @@
+name: Concentrate
+art: Basic
+index: 7
+type: Stance
+tags: []
+parameters: {}
+effects:  
+  - type: Effect
+    text: |
+      Gain **+1 Boon** on **Resolve** rolls  
+upgrades: {}

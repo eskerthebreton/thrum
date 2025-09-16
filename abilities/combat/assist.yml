@@ -1,0 +1,14 @@
+name: Assist
+art: Basic
+index: 8
+type: Stance
+tags: []
+parameters:
+  Range: 1  
+  Trigger: An Ally targets an Enemy within range
+effects:
+  - type: Effect
+    text: |
+      You may impose **+1 Bane** on the Enemy's defensive roll.
+      If you do, end this stance.  
+upgrades: {}

@@ -1,0 +1,27 @@
+name: Point Blank Shot
+art: Archery
+index: 4
+type: Action
+tags:
+  - Physical Attack
+  - Ranged
+parameters:
+  Range: 2  
+  Target: One enemy
+effects:
+  - type: Effect
+    text: |
+      Push the target up to **1**$^b$ spaces (you may move them any direction provided
+      each square of movement is in the same direction and leaves them further from you
+      than they started)
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue**
+  - type: Critical
+    text: |
+      Deal an additional **1**$^a$ Fatigue and push the target up to an additional **1**$b$
+upgrades:
+  a: |
+    Add half your POW to the additional Fatigue you deal on a Critical  
+  b: |
+    Add half your REA to the distance pushed and the additional distance pushed on a Critical  

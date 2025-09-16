@@ -1,0 +1,14 @@
+name: Protect
+art: Basic
+index: 9
+type: Stance
+tags: []
+parameters:
+  Range: 1  
+  Trigger: An Ally within range is targeted by an enemy
+effects:
+  - type: Effect
+    text: |
+      You may grant the Ally +1 Boon on their Defensive roll.
+      If you do, end this stance.  
+upgrades: {}

@@ -1,0 +1,22 @@
+name: Eigencomplex
+art: Kineticism
+index: 5
+type: Stance
+tags:
+  - Aura
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Gain **Aura** **1**$^a$ and indicate an orientation: clockwise or counterclockwise.
+      Whenever a character moves into any space in the aura, they are pushed one space
+      in a cardinal direction in the indicated orientation unless they spend
+      an extra space of movement to resist this effect. Movement triggered by this effect
+      does not trigger this effect. You cannot be targeted by enemies in this aura
+      unless they are orthogonally adjacent to you.  
+upgrades:
+  a: |
+    Increase the size of the Aura by half your REA  
+  b: |
+    Ranged attacks targeting you from 3 or more spaces away are at **+1 Bane**
+    while you are in this Stance  

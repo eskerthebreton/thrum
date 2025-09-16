@@ -1,0 +1,25 @@
+name: Trick Shot
+art: Archery
+index: 2
+type: Action
+tags:
+  - Physical Attack
+  - Ranged
+  - Finisher
+parameters:
+  Range: 6  
+  Target: One enemy
+effects:
+  - type: Succeed
+    text: |
+      Deal **2 Fatigue**  
+  - type: Critical
+    text: |
+      Repeat this action immediately, targeting an enemy that has not been targeted
+      by this ability this turn as if you were standing in the space of the first target.
+      You have +**1**$^b$ **Bane** on the attack for each previous target of this ability this turn.  
+upgrades:
+  a: |
+    On a Critical, deal additional Fatigue equal to half your POW  
+  b: |
+    Reduce the number of Banes applied for previous targets by half your REA  

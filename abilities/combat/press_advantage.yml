@@ -1,0 +1,18 @@
+name: Press Advantage
+art: Dueling
+index: 6
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Your attacks that target an enemy suffering at least one **Status**
+      are at +**1**$^a$ Boons  
+upgrades:
+  a: |
+    Gain additional Boons equal to half your FIN  
+  b: |
+    In addition, when you get a Critical against an enemy with one or more Statuses,
+    add +1 additional stack. If the target has more than one, add +1 to up to
+    half your FIN of them  

@@ -1,0 +1,25 @@
+name: Infuse Weapon
+art: Infusion
+index: 1
+type: Action
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Make a Basic Attack against a valid target resolved using Infusion.
+      If the target is adjacent to you, the Attack loses the Ranged tag for this
+      use and gains Finisher.
+  - type: Critical
+    text: |
+      Deal **1**$^a$ additional Fatigue  
+  - type: Effect
+    text: |
+      Choose of the following to apply to the target: **+1 Burning**, +1 **Slowed**,
+      +1 **Blinded** or +1 **Shocked**. If the attack was a Success, choose **1**$^b$
+      additional times (you may choose the same one more than once)  
+upgrades:
+  a: |
+    Add half your POW to Fatigue you deal on a Critical  
+  b: |
+    Add half your FIN to the additional Status stacks you deal on a Success  

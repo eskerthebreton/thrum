@@ -1,0 +1,19 @@
+name: Resonance
+art: Infusion
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Whenever you are suffering from **Burning**, **Slowed**, **Blinded** or **Shocked**,
+      you may apply **1**$^a$ stacks of that status as part of a successful attack. If you
+      are suffering from more than one, you apply at most **1**$^b$ of them. This is in addition
+      to any statuses the attack applies normally (and the stacks add together if the same
+      status applies more than once and has a parameter).  
+upgrades:
+  a: |
+    Increase the number of Status stacks you apply by half your FIN  
+  b: |
+    Increase the maximum number of different statuses you can propagate by half your REA  

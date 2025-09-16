@@ -1,0 +1,18 @@
+name: Accelerate
+art: Kineticism
+index: 3
+type: Action
+tags: Buff
+parameters:
+  Range: 4  
+  Target: One Ally or Self
+effects:
+  - type: Effect
+    text: |
+      Target is **Hastened**  
+upgrades:
+  a: |
+    You may apply the effect to a second target   
+  b: |
+    After using this ability, you gain the benefit of the **Dodge** Basic Stance
+    until the start of your next turn (in addition to your actual Stance)  

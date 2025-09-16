@@ -1,0 +1,18 @@
+name: Newtonian Mechanics
+art: Kineticism
+index: 7
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Whenever you target a creature or area with an ability using an action,
+      you may move yourself **1**$^a$ spaces further away from that creature
+      (or from the closest space in the area).  
+upgrades:
+  a: |
+    Increase the distance you move by half your REA  
+  b: |
+    You may move the target 1 as well in the opposite direction you move, |
+    after the ability resolves (in addition to any movement the ability applies normally)  

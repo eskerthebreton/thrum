@@ -1,0 +1,17 @@
+name: Wave of Mutilation
+art: Infusion
+index: 2
+type: Action
+tags: []
+parameters:
+  Range: 0  
+  Target: "Area **2**$^a"
+effects:
+  - type: Effect
+    text: |
+      Choose one of the following statuses: **Burning**, **Slowed**, **Blinded**,
+      **Shocked**. All characters in the area (including Self) receive +**1**$^b$
+      of that status.  
+upgrades:
+  a: Increase the area by half your REA  
+  b: Increase the number of Status stacks on characters other than you by half your FIN  

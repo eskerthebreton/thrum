@@ -1,0 +1,26 @@
+name: Command Protector
+art: Animism
+index: 4
+type: Stance
+tags: []
+parameters:
+  Range: 2
+effects:
+  - type: Effect
+    text: |
+      When you take or renew this stance, Position a Minion  
+  - type: Trigger
+    text: |
+      An enemy exits a space adjacent to your minion for the first time on their turn.  
+  - type: Effect
+    text: |
+      You may make a Physical Attack against the triggering enemy.
+      If you do, end this stance.  
+  - type: Success
+    text: |
+      Deal **1**$^a$ **Fatigue**  
+upgrades:  
+  a: |
+    Increase the Fatigue on a success by half your POW  
+  b: |
+    On a Critical, apply **Slowed** equal to half your FIN  

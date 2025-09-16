@@ -1,0 +1,18 @@
+name: Cloak of Wind
+art: Elementalism
+index: 5
+type: Stance
+tags: []
+parameters:
+  Trigger: You are targeted by an Attack
+effects:
+  - type: Effect
+    text: |
+      Add your Elementalism Training to your Evasion roll. If you roll a
+      Critical Success, you may remain in this stance. Otherwise, end this stance
+      unless you take **Stress** to stay in it.  
+upgrades:
+  a: |
+    Add half your FIN to the bonus  
+  b: |
+    Reduce the threshold for a Critical Success by your FOC  
