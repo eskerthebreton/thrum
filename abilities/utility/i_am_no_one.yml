@@ -1,0 +1,11 @@
+name: I Am No One
+art: Stealth
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      You have **+1 Boon** on Stealth Gambits you make in any scene
+      where the party is outnumbered by nonhostile NPCs

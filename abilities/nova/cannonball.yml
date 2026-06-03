@@ -1,0 +1,26 @@
+name: Cannonball
+art: Brawling
+index: 1
+type: Action
+tags:
+  - Physical Attack
+parameters:
+  Potential: You are targeted with an attack
+  Cost: 6
+  Target: Aura 6
+effects:
+  - type: Effect
+    text: |
+      Teleport up to your Speed, then all enemies in the Aura are pulled toward you
+      as far as possible
+  - type: Success
+    text: |
+      Affected enemies are **+1 Weakened** and **+1 Slowed**
+  - type: Critical
+    text: |
+      Deal **Fatigue**
+upgrades:
+  a: |
+    On a Critical, the target is **Stunned**
+  b: |
+    Deal **Fatigue** on a Success

@@ -1,0 +1,19 @@
+name: Specialist
+art: Research
+index: 4
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you gain this Ability, choose one of the following areas of expertise.
+      Your **Research** Gambits made to recall or acquire knowledge in that area
+      are **Powerful**\n
+      * Botany and Brewing
+      * The Arcane Arts
+      * Human Physiology and Medicine
+      * Religious or Occult Practices    
+  - type: Special
+    text: |
+      You may choose this ability more than once

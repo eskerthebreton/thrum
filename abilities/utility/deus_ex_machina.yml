@@ -1,0 +1,16 @@
+name: Deus Ex Machina
+art: Problem Solving
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:  
+  Circumstance: You or an ally attempts to do something Risky against formidable opposition.  
+  Uses/Cooldown: 1/Arc
+effects:
+  - type: Effect
+    text: |
+      Swap the player and opposition modifiers, and invert the Risk profile:
+        **Risky** becomes **Powerful** and vice versa,
+        **Costly** becomes **Controlled** and vice versa, and 
+        if there are Boons or Banes in effect, swap those as well.

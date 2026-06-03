@@ -1,0 +1,16 @@
+name: Fixer-Upper
+art: Struction
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Treat the quality of your downtime accommodations as one tier higher.
+      If it is already a luxury accommodation, the party (re)gains 1 Eunoia.
+  - type: Special
+    text: |
+      This activity should be resolved before allies' downtime activities,
+      as it affects their rolls
+

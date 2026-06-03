@@ -1,0 +1,13 @@
+name: Now You Don't
+art: Stealth
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      You can apply the **Intercede** ability to your own Stealth Gambit
+      without spending Effort

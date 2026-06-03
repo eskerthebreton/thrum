@@ -1,0 +1,13 @@
+name: Shrewd Negotiation
+art: Influence
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You attempt a Gambit to improve the terms of a deal, such as\na quest reward or a purchase price"
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      The Gambit becomes **Controlled**

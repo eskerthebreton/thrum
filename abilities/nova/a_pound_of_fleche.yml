@@ -1,0 +1,30 @@
+name: A Pound of Fleche
+art: Dueling
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Potential: You roll doubles
+  Cost: "X (Max: 6)"
+  Target: Line $\infty$
+effects:
+  - type: Effect
+    text: |
+      Teleport to the end of the Line
+  - type: Success
+    text: |
+      Deal **2 Fatigue** and **+1 Bleed**
+  - type: Critical
+    text: |
+      Deal an additional **1 Fatigue** and **+1 Hamstrung**
+  - type: Effect
+    text: |
+      Reduce X by 1. Then if X is greater than 0, repeat this ability choosing a new target
+      line in a direction (orthogonal or diagonal) other than the direction you came from
+upgrades:
+  a: |
+    You can use this ability even if you have already spent Potential this combat
+  b: |
+    Reduce the cost to X-1

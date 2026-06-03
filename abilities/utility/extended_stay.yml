@@ -1,0 +1,15 @@
+name: Extended Stay
+art: Influence
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      If any ally failed a Downtime Activity roll during this instance
+      of downtime, they can attempt a different Downtime Activity  
+  - type: Special
+    text: |
+      This activity can be declared and resolved after everyone else has
+      attemped their Downtime Activity

@@ -1,0 +1,13 @@
+name: Do It With Flare
+art: Craft
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: "You get a critical success on a Powerful Gambit using Craft\nin front of NPC witnesses"
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      The party gains +1 Eunoia

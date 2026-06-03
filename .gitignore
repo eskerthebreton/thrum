@@ -1,0 +1,8 @@
+*/generated/*.csv
+*/generated/*.md
+*.*~
+notes
+*/pages/*.csv
+*/pages/*.md
+Pipfile.lock
+*.*#

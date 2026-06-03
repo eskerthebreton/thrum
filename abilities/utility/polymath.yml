@@ -1,0 +1,14 @@
+name: Polymath
+art: Research
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you gain this Ability, designate a Utility Art other than this one.
+      Gain +1 to your modifier in that Art  
+  - type: Special
+    text: |
+      You can choose this ability more than once, but must choose a different Art each time

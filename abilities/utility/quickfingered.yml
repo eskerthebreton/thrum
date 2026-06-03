@@ -1,0 +1,14 @@
+name: Quickfingered
+art: Craft
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You attempt a Gambit that involves an act of time-sensitive\nmanual precision, such as stitching a wound, picking a pocket,\nmanipulating a deck of cards, or playing a musical instrument"
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      You can make the Gambit **Controlled** or **Powerful**. You can use this
+      modifier twice on the same Gambit to add both properties.  

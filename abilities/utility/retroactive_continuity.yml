@@ -1,0 +1,16 @@
+name: Retroactive Continuity
+art: Reconnaissance
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: "You or an ally fumbles a Gambit opposed by an NPC or in a location\nthe party has interacted with in a previous episode"
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      You recall something you noticed on a previous occasion that suggests
+      a different approach. You or your ally may treat the first attempt
+      as if it never happened, and reattempt the Gambit with a different
+      Approach, at +1 Boon.

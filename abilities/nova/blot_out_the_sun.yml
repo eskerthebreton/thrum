@@ -1,0 +1,26 @@
+name: Blot Out the Sun
+art: Archery
+index: 1
+type: Action
+tags:
+  - Physical Attack
+  - Finisher
+parameters:
+  Potential: You use an Attack against a target at its maximum Range
+  Cost: 4
+  Target: All Enemies
+effects:
+  - type: Effect
+    text: |
+      Deal **1 Fatigue**
+  - type: Success
+    text: |
+      Deal an additional **2 Fatigue** and the target is **+1 Slowed**
+  - type: Critical
+    text: |
+      Target is **Immobilized** until the end of their turn
+upgrades:
+  a: |
+    All targets are **+1 Blinded** as an Effect
+  b: |
+    Gain the effects of a Critical on a normal Success

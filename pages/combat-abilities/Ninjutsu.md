@@ -1,0 +1,25 @@
+ [Combat Abilities By Art](Combat-Abilities-By-Art)|
+------|
+
+<figure>
+<img style="display: block; width=100%" src="https://images.metmuseum.org/CRDImages/as/original/DP874372.jpg"></img>  
+</figure>
+
+
+## Wraith on Wings
+
+**Potential**: Start your turn **Hidden**, inflict one or more stacks
+of **Blinded** to one or more enemies,
+ or attack an enemy that has **Mark**
+**Cost**: 4
+**Effect**: When you enter this Stance, apply **+1 Mark** to all enemies and gain
+the following as a Buff (which persists even when you take a new Stance):
+  * You ignore all effects that would reduce or impede your movement and
+    can move through other characters and barriers (but not stop in their space)
+  * You become **Hidden** and do not lose Hidden until combat ends
+**Upgrades:**
+    a. While affected by this Buff, when you move through an enemy's space for the
+first time on your turn, deal **Stress** to that enemy
+    b. While affected by this Buff, you have Aura 2. Enemies have the effect of the
+**Blinded** status while in the Aura and their Statuses do not tick down if
+they end their turn there. This application of Blinded does not grant Potential.

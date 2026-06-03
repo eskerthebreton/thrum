@@ -1,0 +1,14 @@
+name: Historical Aside
+art: Research
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: You or an ally attempt a Gambit involving a public figure, institution, or place  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      You remember reading something that could help here! The Gambit gains
+      **+1 Boon** and is **Powerful**

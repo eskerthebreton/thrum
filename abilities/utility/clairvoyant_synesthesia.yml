@@ -1,0 +1,15 @@
+name: Clairvoyant Synesthesia
+art: Reconnaissance
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: You attempt a gambit to see, hear, or smell something in a nearby location  
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      If the Gambit succeeds, you obtain information from all of your senses
+      as though you were up close
+

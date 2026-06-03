@@ -1,0 +1,15 @@
+name: Applied Booksmarts
+art: Research
+index: 2
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: An ally makes any Gambit   
+  Uses/Cooldown: 1/Scene
+effects:
+  - type: Effect
+    text: |
+      You may make a **Research** roll. On a success, the Gambit gains
+      **+1 Boon**. On a Fumble, there is no effect. On a Critical Fumble,
+      the Gambit gains **+1 Bane**.

@@ -1,0 +1,11 @@
+name: Reflex Conditioning
+art: Athletics
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      You have **+1 Boon** on all **Stealth** and **Problem-Solving** Gambits
+      while this Buff is active

@@ -1,0 +1,27 @@
+name: Smite Them in the Fields and Streets
+art: Elementalism
+index: 1
+type: Action
+tags:
+  - Special Attack
+  - Finisher
+parameters:
+  Potential: You take Stress from one of your own abilities
+  Cost: 4
+  Target: All Enemies
+  Special: "Targets can only defend against this attack using Evasion.\nThey may choose not to defend and let the attack hit"
+effects:
+  - type: Effect
+    text: |
+      Targets are **+1 Burning** and **+1 Shocked**
+  - type: Success
+    text: |
+      Targets take **1 Fatigue** and **1 Stress**
+  - type: Critical
+    text: |
+      Targets take double the Fatigue and Stress instead
+upgrades:
+  a: |
+    Inflict an additional **+1 Burning** and increase the base Fatigue by 1
+  b: |
+    Inflict an additional **+1 Shocked** and increase the base Stress by 1

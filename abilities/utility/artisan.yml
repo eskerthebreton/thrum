@@ -1,0 +1,10 @@
+name: Artisan
+art: Craft
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      You create a trinket that can be sold for **1 Lucre**  

@@ -1,0 +1,13 @@
+name: Strategize
+art: Problem Solving
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects: 
+  - type: Success
+    text: |
+      You may present the GM with up to two sets of two alternatives
+      involving the current or upcoming Arc objective. The GM offers
+      any relevant pros and cons that make use of information or context
+      the party could reasonably have had access to.

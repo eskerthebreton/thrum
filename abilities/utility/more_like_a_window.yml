@@ -1,0 +1,11 @@
+name: More Like a Window
+art: Struction
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      You always have **+1 Boon** on Gambits to destroy obstacles
+      (such as doors)  

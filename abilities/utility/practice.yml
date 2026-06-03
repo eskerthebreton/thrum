@@ -1,0 +1,12 @@
+name: Practice
+art: Basic
+index: 1
+type: Downtime Activity
+tags:
+  - Buff
+parameters: {}
+effects:
+  - type: Succeed
+    text: |
+      Choose one Utility Art. You have **+1 Boon**
+      on all Gambit rolls using that art while this buff is active.

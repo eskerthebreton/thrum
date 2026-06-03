@@ -1,0 +1,12 @@
+name: Determination
+art: Athletics
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      You can apply the **Intercede** ability to your own **Athletics** Gambit

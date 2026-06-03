@@ -1,0 +1,13 @@
+name: Intimidating Presence
+art: Leadership
+index: 2
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You or an ally attempt a Gambit where Infamy would be added\nto the Opposition roll"
+  Uses/Cooldown: 1/Arc per Faction
+effects:
+  - type: Effect
+    text: |
+      Add Infamy to the player roll instead  

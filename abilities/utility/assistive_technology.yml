@@ -1,0 +1,14 @@
+name: Assistive Technology
+art: Craft
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Choose a Utility Art. You fashion a rough device that aids in that pursuit.
+      Your own Gambits using that art become **Controlled**, and you may
+      use the **Help** ability on Gambits using that Art without expending Effort,
+      as long as this Buff is active. When a Gambit benefitting from this Buff is a
+      Critical Fumble, the device breaks and this Buff ends.  

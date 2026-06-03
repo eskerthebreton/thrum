@@ -1,0 +1,13 @@
+name: Silver Tongue
+art: Influence
+index: 2
+type: Gambit Modifier  
+tags:
+  - Reactive
+parameters:
+  Circumstance: You or an ally attempt any Gambit involving social interaction  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      Add the party's current Eunoia total to the roll  

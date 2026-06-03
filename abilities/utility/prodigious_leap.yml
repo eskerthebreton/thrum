@@ -1,0 +1,13 @@
+name: Prodigious Leap
+art: Athletics
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You make an **Athletics** Gambit to achieve a difficult jump, \nup to twice as far as a typical person could reliably achieve"
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      You automatically succeed

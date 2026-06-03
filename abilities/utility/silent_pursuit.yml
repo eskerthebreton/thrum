@@ -1,0 +1,14 @@
+name: Silent Pursuit
+art: Stealth
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: You attempt a Gambit to follow someone undetected  
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      Choose 1: Gain **+2 Boons**, or the Gambit becomes
+      **Powerful** and loses **Risky**  

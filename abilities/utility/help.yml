@@ -1,0 +1,13 @@
+name: Help
+art: Basic
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "An ally makes any Gambit Roll"
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      Grant **+1 Boon** on the roll

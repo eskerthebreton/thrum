@@ -1,0 +1,16 @@
+name: Double or Nothing
+art: Basic
+index: 1
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: "You fumble (but don't Critical Fumble) a Gambit that is not Costly"
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      Both your roll and the opposition roll are repeated,
+      and the outcome is determined by the new rolls, however the Gambit
+      is now both Costly and Risky and if it was Controlled it no longer is.
+      If the Gambit was Powerful it still is.

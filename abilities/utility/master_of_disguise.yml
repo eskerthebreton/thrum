@@ -1,0 +1,14 @@
+name: Master of Disguise
+art: Stealth
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Designate a faction. You disguise the party as generic members of that
+      faction while this effect persists. The party's own renown and infamy
+      do not apply to Gambits while this effect is active, and are replaced
+      by modifiers appropriate to relationships with the designated faction.
+      Any Eunoia earned while this effect is active must be expended before it ends.

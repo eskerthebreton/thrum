@@ -1,0 +1,16 @@
+name: Create a Diversion
+art: Leadership
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: You make a **Leadership** Gambit to draw the attention of a group  
+  Effort Cost: 2
+effects:
+  - type: Effect
+    text: |
+      Gain **+1 Boon** on the roll. On a Success, all opposition rolls involving
+      NPCs are at **+1 Bane** until the end of the scene as long as you do not
+      take any additional Gambits or use Proactive abilities. On a Critical Success,
+      your allies' Gambits are at **+1 Boon** as well and you refund 1 Effort.

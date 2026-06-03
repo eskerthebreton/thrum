@@ -1,0 +1,2 @@
+combat: "../headers/templates/combat-ability-header.yml"
+utility: "../headers/templates/utility-ability-header.yml"

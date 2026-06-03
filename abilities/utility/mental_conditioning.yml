@@ -1,0 +1,10 @@
+name: Mental Conditioning
+art: Problem Solving
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      You gain **+1 Boon** on **Research** and **Reconnaissance**

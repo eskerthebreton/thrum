@@ -1,0 +1,11 @@
+name: Quick Rescue
+art: Athletics
+index: 4
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you use **Intercede** to mitigate or prevent consequences
+      of a physical nature, it costs only 1 Effort

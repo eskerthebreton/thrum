@@ -1,0 +1,15 @@
+name: Anthropological Staycation
+art: Research
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Designate a Faction. You brush up on their history, customs and practices
+      that provides a benefit when interacting with a member of that Faction socially,
+      or to interact with a location they control. During such an interaction,
+      choose one of the following:\n
+      * You may make a Gambit **Controlled** or **Powerful**. If the Gambit is fumbled, end this effect.
+      * You may use **Intercede** on the Gambit without expending Effort. Then end this effect.

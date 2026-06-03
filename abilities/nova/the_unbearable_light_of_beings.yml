@@ -1,0 +1,22 @@
+name: The Unbearable Light of Beings
+art: Animism
+index: 1
+type: Action
+tags:
+  - Buff
+parameters:
+  Potential: "A round ends"
+  Cost: 3
+  Target: Self
+effects:
+  - type: Effect
+    text: |
+      Whenever you Position a Minion, whenever one of your Minions disappears,
+      or whenever you target an Ally with an ability, enemies adjacent to the
+      target Ally or position take **Fatigue** and **+1 Blinded**.
+      When you take this action, position a Minion.
+upgrades:
+  a: |
+    Placeholder text
+  b: |
+    Placeholder text

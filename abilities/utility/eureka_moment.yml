@@ -1,0 +1,14 @@
+name: Eureka Moment
+art: Problem Solving
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: A Gambit attempt by you or an ally results in new information  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      The GM offers additional detail or a second related piece of information
+      relevant to the party's current Arc objective

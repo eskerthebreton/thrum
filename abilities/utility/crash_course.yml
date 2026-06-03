@@ -1,0 +1,12 @@
+name: Crash Course
+art: Research
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Choose one Utility Art. You may use **Help** on Gambits involving
+      that Art without expending effort. When you do, you grant
+      **+2 Boons** instead of +1.

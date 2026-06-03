@@ -1,0 +1,14 @@
+elements:
+  - type: navbar
+    parameters:
+      links:
+        - preface: ""
+          link_text: Utility Abilities By Art
+          link_slug: Utility-Abilities-By-Art
+  - type: image
+    parameters:
+      image_width: "{image_width}"
+      image_id: "{image_id}"
+  - type: markdown
+    parameters:
+      path: "../abilities/generated/{art_name}.md"

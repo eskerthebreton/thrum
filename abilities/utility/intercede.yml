@@ -1,0 +1,14 @@
+name: Intercede
+art: Basic
+index: 1
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: "An ally fumbles a Gambit, succeeds on a Costly Gambit, \nor Critically Fumbles a Risky Gambit"
+  Effort Cost: 2
+effects:
+  - type: Effect
+    text: |
+      The negative consequence is avoided, or in the case of a Critical Fumble
+      it is treated as a normal Fumble instead

@@ -1,0 +1,12 @@
+name: Mechanically-Minded
+art: Craft
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you attempt a Gambit to understand or intervene in the operation
+      of something with moving parts (such as a machine or lock),
+      it is **Controlled** and **Powerful**  

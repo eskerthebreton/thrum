@@ -1,0 +1,12 @@
+name: Cover Their Tracks
+art: Stealth
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Your Stealth Gambits made to reach a location undetected apply
+      to the whole party provided the location is known when this
+      activity is taken

@@ -1,0 +1,20 @@
+
+* Servers are general purpose computing machines, the same as a single-user machine
+  * Treating a particular server as the authoritative "source of truth" is useful when it comes to input data, because it serves a synchronizing function
+  * Carrying out demanding computations on a centralized server can also be useful, because it reduces redundancy
+* Development needs to take the production environment's resource constraints into account, but it should not create unnecessary tight coupling with that environment
+*  are mainly for "read" operations
+
+
+* Prefer text interfaces to graphical interfaces
+  * Graphical User Interfaces (GUIs) can be helpful, but they should be _interfaces_, not bottlenecks: the underlying process should exist separately from the interface
+    * The GUI needs to be aware of the data, but the data shouldn't need to be aware of the GUI
+    * Interaction with a GUI is not generally conducive to reproducibility, so even when it is used, processes should be recorded in text artifacts that are both human and machine readable
+    * This facilitates automation, reproducibility, interoperability, and transparency
+    * The GUI should not hold the user "captive"
+* Prefer keyboard interaction to mouse interaction
+  * Ten fingers can do more than a single cursor
+  * Mouse interaction makes visual search a cognitive bottleneck, and every point and click interface is organized differently
+* Prefer local interaction to remote interaction when possible
+  * 
+* Prefer desktop applications to browser tabs

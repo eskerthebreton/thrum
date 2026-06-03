@@ -1,0 +1,11 @@
+name: Team-Building Exercise
+art: Leadership
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      When you or an ally use **Help** or **Intercede**, the next Gambit
+      the party attempts gains **+1 Boon** as well

@@ -1,0 +1,11 @@
+name: Puzzle Enthusiast
+art: Problem Solving
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects: 
+  - type: Effect
+    text: |
+      Your **Problem Solving** Gambits involving Traps, Ciphers, Riddles,
+      and Puzzles are at **+1 Boon** and are **Powerful**

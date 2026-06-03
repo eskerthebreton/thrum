@@ -1,0 +1,13 @@
+name: Accessible Design
+art: Struction
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You make a Struction gambit to create a ramp, scaffolding, or\nsimilar structure to facilitate entry to a building or structure\nat a spot not normally accessible."
+  Effort Cost: 1
+effects:
+  - type: effect
+    text: |
+      The Gambit is Controlled and Powerful

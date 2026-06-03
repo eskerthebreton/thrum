@@ -1,0 +1,23 @@
+name: Mass Hysteria!
+art: Mesmerism
+index: 1
+type: Action
+tags:
+  - Mental Attack
+parameters:
+  Potential: You deal **Stress**
+  Cost: "X (Max: 6)"
+  Target: All Enemies
+effects:
+  - type: Success
+    text: |
+      Deal the lesser of X or 2 Stress
+  - type: Effect
+    text: |
+      Targets must immediately make a **Panic Roll** regardless of their current
+      Stress level, adding X to the number they need to roll to succeed
+upgrades:
+  a: |
+    You can use this ability even if you have already spent Potential this combat
+  b: |
+    Reduce the cost to X-1

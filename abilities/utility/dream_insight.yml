@@ -1,0 +1,13 @@
+name: Dream Insight
+art: Reconnaissance
+index: 6
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      The GM reveals a piece of information about the current Arc objective
+      that the party could have learned previously using Reconnaissance but
+      didn't (either because of a fumbled Gambit or because they didn't
+      seek it out)

@@ -1,0 +1,13 @@
+name: Eagle-Eye
+art: Reconnaissance
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      Whenever you are outdoors and you make a Reconnassaince Gambit
+      to observe something in the distance, choose one of the following:\n
+      * The Opposition is treated as if you were half the distance away
+      * It becomes **Powerful**

@@ -1,0 +1,12 @@
+name: Motivational Speech
+art: Leadership
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Your allies gain 1 Effort in addition to what they would regain normally
+      during the downtime. This can cause their effort total to exceed their
+      normal maximum.

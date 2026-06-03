@@ -1,0 +1,12 @@
+name: Meditate
+art: Basic
+index: 1
+type: Downtime Activity
+tags:
+  - Buff
+parameters: {}
+effects:
+  - type: Succeed
+    text: |
+      While this Buff is active, you may use the Push or Help modifier
+      without expending effort. If you do, end this buff.

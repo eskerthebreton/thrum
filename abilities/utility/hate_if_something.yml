@@ -1,0 +1,15 @@
+name: Hate if Something Happened To It
+art: Struction
+index: 2
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: You or an ally make a gambit (using any Art) to intimidate someone  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      Treat the outcome as one category better than the roll
+      (Critical Fumble becomes normal Fumble, Fumble becomes normal Success,
+      Success becomes Critical Success)  

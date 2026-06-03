@@ -1,0 +1,22 @@
+Brawling:
+  template: combat
+  bindings:
+    art_name: Brawling
+    image_id: DP146856
+    image_width: 50%
+  page: combat-abilities/Brawling.md
+Dueling:
+  template: combat
+  bindings:
+    art_name: Dueling
+    image_id: DP146856
+    image_width: 50%
+  page: combat-abilities/Dueling.md    
+Infusion:
+  template: combat
+  bindings:
+    art_name: Infusion
+    image_id: DP146856
+    image_width: 50%
+  page: combat-abilities/Infusion.md
+    

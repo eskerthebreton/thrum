@@ -1,0 +1,13 @@
+name: Push
+art: Basic
+index: 1
+type: Gambit Modifier
+tags:
+  - Proactive
+parameters:
+  Circumstance: "You make any Gambit Roll"
+  Effort Cost: 1
+effects:
+  - type: Effect
+    text: |
+      Gain **+1 Boon** on the roll

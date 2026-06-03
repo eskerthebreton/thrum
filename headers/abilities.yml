@@ -1,0 +1,127 @@
+Brawling:
+  template: combat
+  bindings:
+    art_name: Brawling
+    image_id: DP146856
+    image_width: 50%
+  page: combat-abilities/Brawling.md
+Dueling:
+  template: combat
+  bindings:
+    art_name: Dueling
+    image_id: DP132879
+    image_width: 50%
+  page: combat-abilities/Dueling.md    
+Infusion:
+  template: combat
+  bindings:
+    art_name: Infusion
+    image_id: DP810349
+    image_width: 50%
+  page: combat-abilities/Infusion.md
+Archery:
+  template: combat
+  bindings:
+    art_name: Archery
+    image_id: DP805693
+    image_width: 100%
+  page: combat-abilities/Archery.md
+Ninjutsu:
+  template: combat
+  bindings:
+    art_name: Ninjutsu
+    image_id: DP874372
+    image_width: 100%
+  page: combat-abilities/Ninjutsu.md
+Kineticism:
+  template: combat
+  bindings:
+    art_name: Kineticism
+    image_id: DP811523
+    image_width: 50%
+  page: combat-abilities/Kineticism.md
+Animism:
+  template: combat
+  bindings:
+    art_name: Animism
+    image_id: DP809340
+    image_width: 50%
+  page: combat-abilities/Animism.md
+Mesmerism:
+  template: combat
+  bindings:
+    art_name: Mesmerism
+    image_id: DP700761
+    image_width: 50%
+  page: combat-abilities/Mesmerism.md
+Elementalism:
+  template: combat
+  bindings:
+    art_name: Elementalism
+    image_id: DP147728
+    image_width: 100%
+  page: combat-abilities/Elementalism.md
+Struction:
+  template: utility
+  bindings:
+    art_name: Struction
+    image_id: DP141077
+    image_width: 100%
+  page: utility-abilities/Struction.md
+Craft:
+  template: utility
+  bindings:
+    art_name: Craft
+    image_id: DP801128
+    image_width: 100%
+  page: utility-abilities/Craft.md
+Research:
+  template: utility
+  bindings:
+    art_name: Research
+    image_id: DP813284
+    image_width: 50%
+  page: utility-abilities/Research.md
+Athletics:
+  template: utility
+  bindings:
+    art_name: Athletics
+    image_id: DP109555
+    image_width: 100%
+  page: utility-abilities/Athletics.md
+Stealth:
+  template: utility
+  bindings:
+    art_name: Stealth
+    image_id: DP813174
+    image_width: 60%
+  page: utility-abilities/Stealth.md
+Problem_solving:
+  template: utility
+  bindings:
+    art_name: Problem_solving
+    image_id: DP-1566-001
+    image_width: 100%
+  page: utility-abilities/Problem_solving.md
+Leadership:
+  template: utility
+  bindings:
+    art_name: Leadership
+    image_id: DP805514
+    image_width: 50%
+  page: utility-abilities/Leadership.md
+Influence:
+  template: utility
+  bindings:
+    art_name: Influence
+    image_id: DP-19593-001
+    image_width: 50%
+  page: utility-abilities/Influence.md
+Reconnaissance:
+  template: utility
+  bindings:
+    art_name: Reconnaissance
+    image_id: DP879629
+    image_width: 100%
+  page: utility-abilities/Reconnaissance.md
+    

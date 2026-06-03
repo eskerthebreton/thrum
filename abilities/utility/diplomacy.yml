@@ -1,0 +1,12 @@
+name: Diplomacy
+art: Influence
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      Designate a Faction. The party temporarily gains **+1 Renown**,
+      **+1 Infamy** or **-1 Infamy** with that faction (reverted when
+      this Buff ends)

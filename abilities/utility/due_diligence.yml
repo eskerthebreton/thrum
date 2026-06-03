@@ -1,0 +1,21 @@
+name: Due Diligence
+art: Reconnaissance
+index: 5
+type: Downtime Activity
+tags: []
+parameters: {}
+effects:
+  - type: Success
+    text: |
+      You learn a piece of useful information about your current or next
+      Arc objective. Choose one of the following:\n
+      * You overhear something about a specific NPC. The party gains one of **+1 Boon**,
+        **Controlled** or **Powerful** on **Influence** Gambits involving them (based on
+        the nature of the information)
+      * You discover a hidden route or entrance to a specified location. Fill in one
+        segment on a Progress Clock involving reaching that location (representing a
+        more efficient path), 
+        or add one to an associated Threat Clock (representing a safer one).
+      * You gain advance knowledge of an obstacle or hazard. When you or an ally
+        attempts any Gambit to overcome it, it loses the **Risky** property if it
+        had it; otherwise, it becomes **Controlled**.

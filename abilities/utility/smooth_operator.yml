@@ -1,0 +1,11 @@
+name: Smooth Operator
+art: Influence
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When you use **Intercede** to mitigate or prevent consequences
+      of a social nature, it costs only 1 Effort

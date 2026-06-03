@@ -1,0 +1,13 @@
+name: Natural Charisma
+art: Leadership
+index: 3
+type: Gambit Modifier
+tags:
+  - Reactive
+parameters:
+  Circumstance: You succeed on any Gambit involving social interaction  
+  Uses/Cooldown: 1/Episode
+effects:
+  - type: Effect
+    text: |
+      The party gains +1 Eunoia

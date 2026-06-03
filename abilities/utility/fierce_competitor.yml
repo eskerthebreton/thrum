@@ -1,0 +1,11 @@
+name: Fierce Competitor
+art: Athletics
+index: 3
+type: Passive
+tags: []
+parameters: {}
+effects:
+  - type: Effect
+    text: |
+      When an ally Critically Succeeds on any **Powerful** Gambit,
+      you regain 1 Effort
